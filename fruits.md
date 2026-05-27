@@ -78,3 +78,17 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Thèse infrastructure dentaire](07_A_Completer_A_Revoir/08_Dental_Infrastructure_Thesis.md)
 - [Condo mixed-use et smart building](07_A_Completer_A_Revoir/09_Mixed_Use_Smart_Building.md)
 - [BIM / ACV - workflow minimal](07_A_Completer_A_Revoir/10_BIM_ACV_Workflow_Minimal.md)
+
+## Conversations GPT sources
+- [Index conversations GPT](08_Conversations_GPT_Sources/INDEX.md)
+- [Bois, carbone, masterbuilder](08_Conversations_GPT_Sources/01_Bois_Carbone_Masterbuilder.md)
+- [Dette devise, FX, hedge](08_Conversations_GPT_Sources/02_Dette_Devise_FX_Hedge.md)
+- [VEFA, colocation, assurances](08_Conversations_GPT_Sources/03_VEFA_Colocation_Assurances.md)
+- [Build-up boring business BTP](08_Conversations_GPT_Sources/04_Build_Up_Boring_Business_BTP.md)
+- [Dette immobilière et maturity wall](08_Conversations_GPT_Sources/05_Dette_Immobiliere_Maturity_Wall.md)
+- [Holding, SCI, SARL, OBO](08_Conversations_GPT_Sources/06_Holding_SCI_SARL_OBO.md)
+- [BIM, data, green building tech](08_Conversations_GPT_Sources/07_BIM_Data_Green_Building_Tech.md)
+- [Cabinets dentaires comme infrastructure](08_Conversations_GPT_Sources/08_Cabinets_Dentaires_Infrastructure.md)
+- [LMNP, colocation, track record](08_Conversations_GPT_Sources/09_LMNP_Colocation_Track_Record.md)
+- [Condos autonomes, mixed-use, smart building](08_Conversations_GPT_Sources/10_Condos_Autonomes_Mixed_Use.md)
+- [Fruits Group, BTP intégré, UK](08_Conversations_GPT_Sources/11_Fruits_Group_BTP_Integre_UK.md)

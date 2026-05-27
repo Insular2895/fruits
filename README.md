@@ -6,6 +6,19 @@ Le projet part d'une idée simple : construire un opérateur immobilier discipli
 
 > Document de travail. Les montages juridiques, fiscaux et financiers doivent être validés par avocat, notaire, fiscaliste, expert-comptable et financeurs avant exécution.
 
+## Source de vérité
+
+La branche `main` de ce dépôt est la source canonique du projet Fruits.
+
+Pour éviter la duplication inutile :
+
+- les décisions et règles structurantes vivent dans les dossiers `00` à `05` ;
+- les ressources et synthèses de travail vivent dans `06_Ressources` ;
+- les chantiers à compléter vivent dans `07_A_Completer_A_Revoir` ;
+- les conversations GPT importées restent dans `08_Conversations_GPT_Sources` comme sources historiques, non validées telles quelles.
+
+Les notes du dossier `08` servent de mémoire et de matière première. Elles ne remplacent pas les décisions validées dans le diagnostic, les packs investisseurs ou les notes opérationnelles.
+
 ## Lecture rapide
 
 - [Index complet du vault](fruits.md)
@@ -27,6 +40,8 @@ Le projet part d'une idée simple : construire un opérateur immobilier discipli
 ├── 04_Operationnel/
 ├── 05_Prospection/
 ├── 06_Ressources/
+├── 07_A_Completer_A_Revoir/
+├── 08_Conversations_GPT_Sources/
 ├── Attachments/
 └── fruits.md
 ```
@@ -104,6 +119,17 @@ La prospection separe :
 - les canaux d'acces aux financeurs ;
 - les plateformes et bases utiles ;
 - les strategies par pays et type de financeur.
+
+### Sources GPT historiques
+
+Le dossier `08_Conversations_GPT_Sources` contient les résumés de conversations GPT importés pour garder la trace de l'origine des idées.
+
+Règles :
+
+- statut `historical_to_review` ou `draft_to_validate` ;
+- aucune décision automatique ;
+- chaque idée utile doit être transformée dans une note opérationnelle, juridique, investisseur ou stratégie ;
+- les points obsolètes doivent rester identifiables au lieu d'être mélangés aux règles validées.
 
 ## Regles de prudence validees
 
