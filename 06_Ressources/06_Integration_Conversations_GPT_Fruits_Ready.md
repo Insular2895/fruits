@@ -500,4 +500,3 @@ Avant de transformer cette note en documents projet, il faut valider :
 4. Si le radar de maturités devient un vrai workflow de prospection.
 5. Si la verticale BTP build-up reste phase 2/3 ou devient un axe plus proche.
 6. Si santé / dentaire reste en veille ou mérite une fiche thèse dédiée.
-

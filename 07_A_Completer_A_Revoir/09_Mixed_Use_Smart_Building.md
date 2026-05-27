@@ -53,4 +53,3 @@ Cette fiche doit nourrir plus tard :
 - actif mixte ;
 - standard énergétique Fruits ;
 - argumentaire investisseurs long terme.
-

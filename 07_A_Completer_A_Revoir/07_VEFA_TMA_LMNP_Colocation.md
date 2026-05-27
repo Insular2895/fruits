@@ -74,4 +74,3 @@ Action : vérifier avec assureur, contrat par contrat.
 - clauses bail à relire par juriste ;
 - tableau cash-flow propriétaire occupant vs full rented ;
 - séparation narrative entre track record personnel et Fruits.
-

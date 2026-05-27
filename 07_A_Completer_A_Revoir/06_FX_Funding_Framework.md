@@ -63,4 +63,3 @@ Le coût réel doit inclure :
 - avocat / documentation ;
 - fiscalité ;
 - stress tests FX.
-

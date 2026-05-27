@@ -61,4 +61,3 @@ Statut : `hypothesis_to_test`.
 - note `06_Integration_Conversations_GPT_Fruits_Ready.md` ;
 - notes opérationnelles Fruits existantes ;
 - futurs comparables marché.
-

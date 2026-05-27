@@ -61,4 +61,3 @@ Le build-up BTP est pertinent seulement si Fruits sait déjà :
 - playbook 30 / 60 / 90 jours ;
 - plan d'intégration IT ;
 - clauses de garantie.
-

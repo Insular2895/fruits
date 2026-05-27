@@ -109,4 +109,3 @@ Ces sources sont à relire directement avant d'être utilisées dans un pitch, u
 - créer une fiche par livre seulement si le livre devient source centrale ;
 - séparer les sources US / UK / internationales des règles applicables en France ;
 - demander validation avant de passer une source en `validated_source`.
-

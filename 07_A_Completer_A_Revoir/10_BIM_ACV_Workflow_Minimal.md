@@ -61,4 +61,3 @@ Statut : `to_review`.
 - seuil de projet pour Revit / One Click LCA ;
 - partenaires possibles ;
 - livrables pour investisseurs / banques.
-

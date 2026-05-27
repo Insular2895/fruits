@@ -51,4 +51,3 @@ Règle : aucune fiche de ce dossier ne vaut décision projet. Les contenus serve
 - niveau de sophistication acceptable pour dette / FX ;
 - horizon réel du build-up BTP ;
 - maintien ou non des verticales santé et mixed-use comme options long terme.
-

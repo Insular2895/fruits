@@ -51,4 +51,3 @@ Statut : `to_review` avec avocat santé avant toute action.
 - Cette verticale est-elle vraiment Fruits, ou un futur projet séparé ?
 - Est-ce un sujet immobilier, dette privée, exploitation ou santé ?
 - Quel niveau de contrôle est légalement acceptable ?
-

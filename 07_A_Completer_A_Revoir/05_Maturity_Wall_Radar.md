@@ -58,4 +58,3 @@ On cherche où la structure de dette va forcer une décision.
 ## Garde-fou
 
 Ne pas confondre stress de dette avec bon deal. Un actif peut être sous pression et rester mauvais.
-

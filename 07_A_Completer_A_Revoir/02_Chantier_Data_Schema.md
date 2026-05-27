@@ -90,4 +90,3 @@ Chaque chantier doit produire un rendement financier et un rendement information
 - Quelles données sont obligatoires dès le premier deal ?
 - Quelles données sont utiles mais trop lourdes au départ ?
 - Qui remplit les données : Fruits, MOE, entreprise, AMO ?
-

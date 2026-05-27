@@ -72,4 +72,3 @@ Compensation = parfois obligation, pas revenu automatique.
 - avocat urbanisme / environnement ;
 - banque ou courtier financement vert ;
 - fiscaliste si mécanisme de crédit / subvention impacte la structure.
-
