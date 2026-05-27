@@ -1,0 +1,86 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"fruits.md\" OR path:\"FRUITS 🍋‍🟩.md\" OR path:\"00_Diagnostic_360.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16436245
+      }
+    },
+    {
+      "query": "path:\"01_Strategie/02_Plan_Global_1M_Et_Execution.md\" OR path:\"01_Strategie/05_Strategies_Empilables.md\" OR path:\"02_Investisseurs/00_Capital_Stack.md\" OR path:\"04_Operationnel/08_SPV_Actions_De_Preference.md\" OR path:\"04_Operationnel/10_Refinancement.md\" OR path:\"04_Operationnel/11_Remuneration_Fruits_Waterfall.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 2278750
+      }
+    },
+    {
+      "query": "path:\"01_Strategie/\" -path:\"01_Strategie/02_Plan_Global_1M_Et_Execution.md\" -path:\"01_Strategie/05_Strategies_Empilables.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "path:\"02_Investisseurs/\" -path:\"02_Investisseurs/00_Capital_Stack.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15485081
+      }
+    },
+    {
+      "query": "path:\"03_Juridique/\"",
+      "color": {
+        "a": 1,
+        "rgb": 11032055
+      }
+    },
+    {
+      "query": "path:\"04_Operationnel/\" -path:\"04_Operationnel/08_SPV_Actions_De_Preference.md\" -path:\"04_Operationnel/10_Refinancement.md\" -path:\"04_Operationnel/11_Remuneration_Fruits_Waterfall.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16096779
+      }
+    },
+    {
+      "query": "path:\"05_Prospection/\"",
+      "color": {
+        "a": 1,
+        "rgb": 1357990
+      }
+    },
+    {
+      "query": "path:\"06_Ressources/\"",
+      "color": {
+        "a": 1,
+        "rgb": 13358561
+      }
+    },
+    {
+      "query": "path:\"Attachments/\"",
+      "color": {
+        "a": 1,
+        "rgb": 6583435
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 1.12,
+  "lineSizeMultiplier": 0.82,
+  "collapse-forces": true,
+  "centerStrength": 0.32,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.65,
+  "close": true
+}
