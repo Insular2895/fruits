@@ -100,7 +100,8 @@ Ces sources sont à relire directement avant d'être utilisées dans un pitch, u
 - [Filtrage playlists et livres - immo / BTP / Fruits](04_Filtrage_Playlists_Livres_Immo_BTP_Fruits.md)
 - [Consolidation stratégique Fruits - idées à intégrer](05_Consolidation_Strategique_Fruits_Draft.md)
 - [Intégration conversations GPT - Fruits ready](06_Integration_Conversations_GPT_Fruits_Ready.md)
-- [Sections à compléter / revoir](../07_A_Completer_A_Revoir/INDEX.md)
+- [Backlog stratégies annexes](08_Backlog_Strategies_Annexes.md)
+- [Sources historiques GPT](09_Sources_Historiques_GPT.md)
 
 ## À faire
 

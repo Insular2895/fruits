@@ -9,27 +9,47 @@ Family Offices patrimoniaux ou entrepreneuriaux.
 - Stade Fruits : priorité stade 1.
 - Objectif du FO : posséder un actif réel, lisible, décoté ou prioritaire, avec peu de gestion et une gouvernance claire.
 
-## Produit recommandé - Stade 1
+## Produit recommande - Stade 1
 
-### Structure principale : usufruit classique
+### Structure principale : co-invest operateur patrimonial
 
-- Le FO achète la nue-propriété (NP).
-- Le SPV opérateur Fruits achète l'usufruit (UF), idéalement financé par une banque ou une ligne dédiée.
-- Fruits exploite le bien, encaisse les loyers et porte l'exécution opérationnelle.
-- À l'échéance, le bien se remembre : le FO récupère la pleine propriété.
+Le produit FO par defaut suit le [chassis standard Fruits](../04_Operationnel/00_Chassis_Standard_Fruits.md).
+
+- Le FO apporte le capital patrimonial majoritaire.
+- La banque apporte un levier prudent si le deal le permet.
+- Fruits co-investit minoritairement et opere l'actif via Fruits OpCo.
+- Fruits conserve les revenus nets d'exploitation apres charges, dette, maintenance et reserves.
+- Le FO est prioritaire a l'exit : vente, refinancement, rachat ou conservation avec streaming.
 
 Pourquoi c'est FO-friendly :
-- Le produit est patrimonial : le FO détient un droit réel sur l'actif.
-- Le discours est simple : acheter un actif décoté aujourd'hui et récupérer la pleine propriété demain.
-- Le risque opérationnel courant est porté par Fruits, pas par le FO.
-- La sortie naturelle est intégrée dans la structure : le remembrement.
+
+- le FO obtient une exposition patrimoniale prioritaire ;
+- Fruits prend la gestion et le risque operationnel courant ;
+- le modele reste plus flexible qu'un demembrement strict ;
+- le droit de preference, l'option de rachat et le reporting protègent l'alignement.
+
+### Variante specifique : usufruit juridique
+
+- Le FO achete la nue-propriete (NP).
+- La SPV operateur Fruits achete l'usufruit (UF), idealement finance par une banque ou une ligne dediee.
+- Fruits exploite le bien et porte l'execution operationnelle.
+- A l'echeance, le bien se remembre : le FO recupere la pleine propriete.
+
+A utiliser seulement si actif stable, duree longue, FO patrimonial et fiscalite validee.
+
+Pourquoi c'est FO-friendly :
+
+- le produit est patrimonial : le FO detient un droit reel sur l'actif ;
+- le discours est simple : acheter un actif decote aujourd'hui et recuperer la pleine propriete demain ;
+- le risque operationnel courant est porte par Fruits, pas par le FO ;
+- la sortie naturelle est integree dans la structure : le remembrement.
 
 Correction importante :
 - La NP n'est pas une "sûreté" au sens strict ; c'est un droit réel patrimonial. Elle protège économiquement le FO, mais ne remplace pas une gouvernance propre.
 - L'usufruitier a l'obligation de conserver la substance du bien. Le contrat doit cadrer entretien, travaux, assurances et reporting.
 - Les grosses réparations peuvent rester côté nu-propriétaire sauf convention contraire ou défaut d'entretien de l'usufruitier ; il faut donc une convention de démembrement très claire.
 
-## Variante - Stade 1 sophistiqué / Stade 2
+## Variante - Stade 1 sophistique / Stade 2
 
 ### Portage d'usufruit
 

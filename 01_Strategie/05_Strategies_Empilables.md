@@ -9,7 +9,8 @@ Définir quelles stratégies peuvent coexister dans Fruits sans créer une struc
 | Stratégie | Stade 1 | Stade 2 | Stade 3 | Commentaire |
 | --- | --- | --- | --- | --- |
 | Dette senior immobilière | Oui | Oui | Oui | Base du modèle si LTV prudente |
-| Usufruit / NP | Oui | Oui | Oui | Très bon avec FO patrimoniaux |
+| Co-invest operateur | Oui | Oui | Oui | Chassis standard Fruits |
+| Usufruit / NP | Exception | Oui | Oui | Outil specifique pour FO patrimoniaux, actif stable et fiscalite validee |
 | Actions de préférence | Oui | Oui | Oui | Bon complément d'equity, pas une dette garantie |
 | Private debt bridge | Oui | Oui | Opportuniste | Pour vitesse / track record, pas long terme |
 | Refinancement | Oui | Oui | Oui | Sortie / optimisation après stabilisation, pas hypothèse magique |
@@ -36,31 +37,43 @@ SPV
 
 ### Deal FO patrimonial
 
-Version recommandée : usufruit classique.
+Version recommandee : co-invest operateur patrimonial.
 
 ```text
-FO achète NP
-+ Fruits achète UF
-+ banque finance UF si possible
-+ convention démembrement
+FO / investisseur apporte le capital patrimonial majoritaire
++ banque apporte un levier prudent
++ Fruits co-investit minoritairement
++ Fruits OpCo exploite / asset manage
++ droit de preference, option ou streaming si possible
 + reporting
 ```
 
 Lecture :
 
-- Le FO achète la nue-propriété et ne reçoit pas de remboursement mensuel.
-- Fruits achète l'usufruit, exploite le bien et encaisse les loyers.
-- Si une banque finance l'usufruit, Fruits rembourse la banque avec les loyers.
-- À la fin de l'usufruit, le bien se remembre automatiquement : le FO récupère la pleine propriété.
-- La convention de démembrement encadre travaux, assurances, charges, entretien, grosses réparations, défauts et sortie.
-- Le reporting rassure le FO : loyers, vacance, impayés, travaux, état du bien, réserves.
+- Le FO finance l'exposition patrimoniale.
+- Fruits porte l'exploitation et capte les revenus nets apres charges, dette et reserves.
+- Le FO est prioritaire a l'exit.
+- Le reporting rassure le FO : loyers, vacance, impayes, travaux, etat du bien, reserves.
 
 Pourquoi c'est propre :
 
-- le FO a une sortie naturelle ;
-- Fruits ne crée pas une dette mensuelle envers le FO ;
-- seule la banque est remboursée mensuellement si elle finance l'UF ;
-- le risque opérationnel reste chez Fruits.
+- le FO a une priorite patrimoniale ;
+- Fruits ne promet pas un rendement garanti ;
+- la dette reste prudente ;
+- le risque operationnel reste chez Fruits ;
+- la structure reste plus flexible qu'un demembrement strict.
+
+Exception : usufruit juridique.
+
+```text
+FO achete NP
++ Fruits achete UF
++ banque finance UF si possible
++ convention demembrement
++ reporting
+```
+
+A utiliser seulement si actif stable, duree longue, FO patrimonial et fiscalite validee.
 
 Variante plus complexe : portage d'usufruit.
 

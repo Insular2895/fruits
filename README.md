@@ -13,16 +13,16 @@ La branche `main` de ce dépôt est la source canonique du projet Fruits.
 Pour éviter la duplication inutile :
 
 - les décisions et règles structurantes vivent dans les dossiers `00` à `05` ;
-- les ressources et synthèses de travail vivent dans `06_Ressources` ;
-- les chantiers à compléter vivent dans `07_A_Completer_A_Revoir` ;
-- les conversations GPT importées restent dans `08_Conversations_GPT_Sources` comme sources historiques, non validées telles quelles.
+- les ressources, backlog et sources historiques synthétiques vivent dans `06_Ressources` ;
+- les anciens dossiers `07_A_Completer_A_Revoir` et `08_Conversations_GPT_Sources` ont été fusionnés pour éviter la dispersion.
 
-Les notes du dossier `08` servent de mémoire et de matière première. Elles ne remplacent pas les décisions validées dans le diagnostic, les packs investisseurs ou les notes opérationnelles.
+Les sources historiques servent de mémoire et de matière première. Elles ne remplacent pas les décisions validées dans le diagnostic, les packs investisseurs ou les notes opérationnelles.
 
 ## Lecture rapide
 
 - [Index complet du vault](fruits.md)
 - [Diagnostic 360](00_Diagnostic_360.md)
+- [Chassis standard Fruits](04_Operationnel/00_Chassis_Standard_Fruits.md)
 - [Plan global 1M et execution](01_Strategie/02_Plan_Global_1M_Et_Execution.md)
 - [Capital stack / financeurs](02_Investisseurs/00_Capital_Stack.md)
 - [Modeles math check](04_Operationnel/09_Modeles_Math_Check.md)
@@ -40,8 +40,6 @@ Les notes du dossier `08` servent de mémoire et de matière première. Elles ne
 ├── 04_Operationnel/
 ├── 05_Prospection/
 ├── 06_Ressources/
-├── 07_A_Completer_A_Revoir/
-├── 08_Conversations_GPT_Sources/
 ├── Attachments/
 └── fruits.md
 ```
@@ -90,9 +88,10 @@ Chaque pack vise a definir :
 Les notes juridiques structurent les blocs de base :
 
 - SPV ring-fenced par actif ou par pool ;
+- co-invest opérateur comme châssis standard ;
 - conventions de gestion avec Fruits OpCo ;
 - waterfall, reserves, DSRA, covenants ;
-- usufruit / nue-propriete ;
+- usufruit / nue-propriete comme outil spécifique, pas structure par défaut ;
 - actions de preference ;
 - templates et sujets a faire relire.
 
@@ -100,6 +99,7 @@ Les notes juridiques structurent les blocs de base :
 
 Le bloc operationnel detaille :
 
+- châssis standard Fruits ;
 - produits Fruits ;
 - strategie groupe ;
 - levier financier ;
@@ -122,7 +122,7 @@ La prospection separe :
 
 ### Sources GPT historiques
 
-Le dossier `08_Conversations_GPT_Sources` contient les résumés de conversations GPT importés pour garder la trace de l'origine des idées.
+La note `06_Ressources/09_Sources_Historiques_GPT.md` contient la synthèse des conversations GPT importées pour garder la trace de l'origine des idées.
 
 Règles :
 
@@ -140,6 +140,8 @@ Règles :
 - Pas d'ETF actions dans les reserves de securite d'une SPV.
 - Refinancement modelise des l'achat, mais jamais presente comme garanti.
 - Fruits se remunere apres charges, dette, reserves et priorites investisseurs.
+- Fruits capte des revenus nets d'exploitation, pas des loyers bruts.
+- Bridge / portage = outil de vitesse, pas modèle permanent.
 
 ## Statut
 

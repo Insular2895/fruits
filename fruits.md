@@ -40,6 +40,7 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Avocats, conseils et templates](03_Juridique/03_Avocats_Conseils_Templates.md)
 
 ## Opérationnel
+- [Châssis standard Fruits](04_Operationnel/00_Chassis_Standard_Fruits.md)
 - [Produits Fruits](04_Operationnel/01_Produits_Fruits.md)
 - [Stratégie groupe](04_Operationnel/02_Strategie_Groupe.md)
 - [Levier financier](04_Operationnel/03_Levier_Financier.md)
@@ -65,30 +66,5 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Consolidation stratégique Fruits - idées à intégrer](06_Ressources/05_Consolidation_Strategique_Fruits_Draft.md)
 - [Intégration conversations GPT - Fruits ready](06_Ressources/06_Integration_Conversations_GPT_Fruits_Ready.md)
 - [Source index - playlists, livres, vidéos](06_Ressources/07_Source_Index_Playlists_Livres.md)
-
-## À compléter / revoir
-- [Index des sections à compléter](07_A_Completer_A_Revoir/INDEX.md)
-- [Matrice premier actif](07_A_Completer_A_Revoir/01_Matrice_Premier_Actif.md)
-- [Données chantier](07_A_Completer_A_Revoir/02_Chantier_Data_Schema.md)
-- [Green finance, carbone, biodiversité](07_A_Completer_A_Revoir/03_Green_Finance_Carbone_Biodiversite.md)
-- [Build-up BTP](07_A_Completer_A_Revoir/04_BTP_Build_Up_DD.md)
-- [Radar dette et maturités](07_A_Completer_A_Revoir/05_Maturity_Wall_Radar.md)
-- [Framework FX et devises](07_A_Completer_A_Revoir/06_FX_Funding_Framework.md)
-- [VEFA, TMA, LMNP, colocation](07_A_Completer_A_Revoir/07_VEFA_TMA_LMNP_Colocation.md)
-- [Thèse infrastructure dentaire](07_A_Completer_A_Revoir/08_Dental_Infrastructure_Thesis.md)
-- [Condo mixed-use et smart building](07_A_Completer_A_Revoir/09_Mixed_Use_Smart_Building.md)
-- [BIM / ACV - workflow minimal](07_A_Completer_A_Revoir/10_BIM_ACV_Workflow_Minimal.md)
-
-## Conversations GPT sources
-- [Index conversations GPT](08_Conversations_GPT_Sources/INDEX.md)
-- [Bois, carbone, masterbuilder](08_Conversations_GPT_Sources/01_Bois_Carbone_Masterbuilder.md)
-- [Dette devise, FX, hedge](08_Conversations_GPT_Sources/02_Dette_Devise_FX_Hedge.md)
-- [VEFA, colocation, assurances](08_Conversations_GPT_Sources/03_VEFA_Colocation_Assurances.md)
-- [Build-up boring business BTP](08_Conversations_GPT_Sources/04_Build_Up_Boring_Business_BTP.md)
-- [Dette immobilière et maturity wall](08_Conversations_GPT_Sources/05_Dette_Immobiliere_Maturity_Wall.md)
-- [Holding, SCI, SARL, OBO](08_Conversations_GPT_Sources/06_Holding_SCI_SARL_OBO.md)
-- [BIM, data, green building tech](08_Conversations_GPT_Sources/07_BIM_Data_Green_Building_Tech.md)
-- [Cabinets dentaires comme infrastructure](08_Conversations_GPT_Sources/08_Cabinets_Dentaires_Infrastructure.md)
-- [LMNP, colocation, track record](08_Conversations_GPT_Sources/09_LMNP_Colocation_Track_Record.md)
-- [Condos autonomes, mixed-use, smart building](08_Conversations_GPT_Sources/10_Condos_Autonomes_Mixed_Use.md)
-- [Fruits Group, BTP intégré, UK](08_Conversations_GPT_Sources/11_Fruits_Group_BTP_Integre_UK.md)
+- [Backlog stratégies annexes](06_Ressources/08_Backlog_Strategies_Annexes.md)
+- [Sources historiques GPT](06_Ressources/09_Sources_Historiques_GPT.md)

@@ -62,7 +62,9 @@ Ces éléments ne doivent pas être remplis à l'avance avec de faux chiffres. L
 ## Phase 3 - Bien 3 / première SPV Fruits
 
 - Démarrage SAS/SPV par actif.
-- Produit possible : usufruit, ADP, ou dette senior + equity selon financeur.
+- Produit par défaut : co-invest opérateur avec dette senior prudente, investisseur majoritaire et Fruits co-invest minoritaire.
+- Variante possible : usufruit juridique seulement si actif stable, durée longue, FO patrimonial et fiscalité validée.
+- Autres produits possibles : ADP, bridge ou dette senior + equity selon financeur.
 - Data room complète.
 - Scénario vente vs refinancement documenté.
 - Premier investisseur FO / UHNWI / bridge selon structure.
@@ -81,4 +83,4 @@ Ces éléments ne doivent pas être remplis à l'avance avec de faux chiffres. L
 - Audit.
 - Gouvernance.
 - Financement institutionnel.
-- Extension santé/BTP/clinique seulement quand le socle immobilier est robuste.
+- Extension santé/BTP/mixed-use/infrastructure seulement quand le socle immobilier est robuste.

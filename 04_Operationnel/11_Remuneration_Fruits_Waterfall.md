@@ -83,11 +83,35 @@ Loyers encaissés
 -> Fruits / JV selon pacte
 ```
 
+Point corrige :
+
+```text
+Fruits capte des revenus nets d'exploitation, pas des loyers bruts.
+```
+
 Nuance :
 
 - les fees de gestion de base peuvent être payés avant les distributions si le travail est réel ;
 - ils doivent être plafonnés, transparents et suspendables si le deal va mal ;
 - l'upside Fruits vient après les priorités.
+
+## Liquidite si non-vente
+
+Fruits ne doit pas creer de valeur pendant cinq ans sans mecanisme de monetisation.
+
+Si l'investisseur conserve l'actif, il faut prevoir :
+
+- valorisation indépendante ;
+- calcul des droits Fruits ;
+- paiement cash, refinancement ou streaming ;
+- droit de preference Fruits si l'actif ou les parts sont vendus.
+
+Streaming recommande :
+
+```text
+pourcentage du cash-flow net distribuable
+et jamais pourcentage du chiffre d'affaires brut
+```
 
 ## Waterfall de vente
 
