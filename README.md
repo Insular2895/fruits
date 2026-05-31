@@ -28,6 +28,7 @@ Les sources historiques servent de mémoire et de matière première. Elles ne r
 - [Modeles math check](04_Operationnel/09_Modeles_Math_Check.md)
 - [Refinancement](04_Operationnel/10_Refinancement.md)
 - [Remuneration Fruits / waterfall](04_Operationnel/11_Remuneration_Fruits_Waterfall.md)
+- [Finance playbooks - extraction Fruits](06_Ressources/10_Finance_Playbooks_Extraction_Fruits.md)
 
 ## Structure du projet
 

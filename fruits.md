@@ -68,3 +68,4 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Source index - playlists, livres, vidéos](06_Ressources/07_Source_Index_Playlists_Livres.md)
 - [Backlog stratégies annexes](06_Ressources/08_Backlog_Strategies_Annexes.md)
 - [Sources historiques GPT](06_Ressources/09_Sources_Historiques_GPT.md)
+- [Finance playbooks - extraction Fruits](06_Ressources/10_Finance_Playbooks_Extraction_Fruits.md)
