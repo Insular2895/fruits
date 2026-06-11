@@ -10,6 +10,7 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Stratégie ETF](01_Strategie/03_Strategie_ETF.md)
 - [Stratégie currency](01_Strategie/04_Strategie_Currency.md)
 - [Stratégies empilables ou non](01_Strategie/05_Strategies_Empilables.md)
+- [Branche d'investissement solaire - draft différé](01_Strategie/06_Branche_Investissement_Solaire.md)
 
 ## Investisseurs
 - [Capital stack / financeurs](02_Investisseurs/00_Capital_Stack.md)

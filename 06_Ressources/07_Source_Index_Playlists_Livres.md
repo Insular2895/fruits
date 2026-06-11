@@ -85,6 +85,15 @@ Résultat :
 | `playlists/Playlist 17/13 - 111623 TMBA Webinar：  Equitable Appraisal Practices： Insights from Residential Property Appraisers.en.txt` | appraisal process, biais de valorisation | `candidate_priority` |
 | `playlists/Playlist 37/15 - 🏡 Ce que votre banquier ne dit pas sur l'immobilier....en.txt` | banque, DPE, financement immobilier FR | `candidate_priority` |
 
+## Branche solaire - sources enregistrées, traitement différé
+
+| Source | Sujet utile Fruits | Statut |
+| --- | --- | --- |
+| https://youtube.com/playlist?list=PLdmGSEUW0sLLIjxj61BfLKXnzO7czeDh2&si=bpupIfnsbdDj6XS1 | optimisation de parcs photovoltaïques utility-scale et branche d'investissement solaire | `candidate_priority` |
+| Titres scientifiques listés dans [Branche d'investissement solaire](../01_Strategie/06_Branche_Investissement_Solaire.md) | bifacial, albédo, trackers, soiling, maintenance prédictive, agrivoltaïsme, land use et CPV | `to_review` |
+
+Garde-fou : ne pas lancer le traitement de la playlist, le prompt de recherche ou la recherche des papiers avant reprise explicite de cette branche.
+
 ## Sources externes déjà mentionnées
 
 | Source | Sujet | Statut |
@@ -102,6 +111,7 @@ Ces sources sont à relire directement avant d'être utilisées dans un pitch, u
 - [Intégration conversations GPT - Fruits ready](06_Integration_Conversations_GPT_Fruits_Ready.md)
 - [Backlog stratégies annexes](08_Backlog_Strategies_Annexes.md)
 - [Sources historiques GPT](09_Sources_Historiques_GPT.md)
+- [Branche d'investissement solaire](../01_Strategie/06_Branche_Investissement_Solaire.md)
 
 ## À faire
 
