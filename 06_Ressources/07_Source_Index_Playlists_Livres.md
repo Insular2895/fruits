@@ -85,6 +85,14 @@ Résultat :
 | `playlists/Playlist 17/13 - 111623 TMBA Webinar：  Equitable Appraisal Practices： Insights from Residential Property Appraisers.en.txt` | appraisal process, biais de valorisation | `candidate_priority` |
 | `playlists/Playlist 37/15 - 🏡 Ce que votre banquier ne dit pas sur l'immobilier....en.txt` | banque, DPE, financement immobilier FR | `candidate_priority` |
 
+## 2026-08-03 - Playlist 26, vidéos 019 à 028
+
+| Sélection | Sujet utile Fruits | Note | Statut |
+| --- | --- | --- | --- |
+| 019-028 | Hôpital, centre commercial, multifamily, hôtel, concessions, pharma, PE, société de crédit immobilier et banque | [Actifs commerciaux immobiliers](12_Playlist_26_Actifs_Commerciaux_Immobiliers.md) | `keep_cold_source` + `draft_to_validate` |
+
+Les vidéos sont conservées dans la bibliothèque canonique `/Users/insular/transcripts/library/youtube/`. Le classement sépare immobilier direct, immobilier spécialisé adossé à un opérateur, audit locataire et contexte financeur. Aucun type d'actif n'est ajouté à la roadmap par cette seule source.
+
 ## Branche solaire - sources enregistrées, traitement différé
 
 | Source | Sujet utile Fruits | Statut |
@@ -111,6 +119,7 @@ Ces sources sont à relire directement avant d'être utilisées dans un pitch, u
 - [Intégration conversations GPT - Fruits ready](06_Integration_Conversations_GPT_Fruits_Ready.md)
 - [Backlog stratégies annexes](08_Backlog_Strategies_Annexes.md)
 - [Sources historiques GPT](09_Sources_Historiques_GPT.md)
+- [Playlist 26 - actifs commerciaux immobiliers](12_Playlist_26_Actifs_Commerciaux_Immobiliers.md)
 - [Branche d'investissement solaire](../01_Strategie/06_Branche_Investissement_Solaire.md)
 
 ## À faire
