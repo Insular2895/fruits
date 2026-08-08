@@ -70,3 +70,4 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Backlog stratégies annexes](06_Ressources/08_Backlog_Strategies_Annexes.md)
 - [Sources historiques GPT](06_Ressources/09_Sources_Historiques_GPT.md)
 - [Finance playbooks - extraction Fruits](06_Ressources/10_Finance_Playbooks_Extraction_Fruits.md)
+- [Playlist 26 - actifs commerciaux immobiliers](06_Ressources/12_Playlist_26_Actifs_Commerciaux_Immobiliers.md)
