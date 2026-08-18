@@ -457,6 +457,52 @@ Attention :
 
 - la banque senior doit accepter la structure et le rang du vendeur dès le départ.
 
+Le remboursement suit la règle :
+
+```text
+nouvelle dette effectivement obtenue
+-> banque / dette prioritaire à solder
+-> vendeur exigible
+-> frais, mainlevée et nouvelles sûretés
+-> DSRA et réserves
+-> cash-out seulement sur le surplus autorisé
+```
+
+Une revente du bien ouvre trois chemins distincts :
+
+1. remboursement intégral du vendeur au closing ;
+2. maintien de l'hypothèque sur le bien vendu, avec le risque de droit de suite pour l'acquéreur ;
+3. mainlevée ou purge contre une sûreté de remplacement acceptée par le vendeur.
+
+Le troisième chemin, dit « portabilité » dans le cadre Fruits, n'est jamais automatique. Il exige au minimum :
+
+- consentement exprès du vendeur ;
+- acte notarié et documentation de la nouvelle sûreté ;
+- accord de toute banque et gestion des rangs ;
+- ratio de couverture et haircuts ;
+- règles d'arbitrage, retrait, appels de marge et réalisation ;
+- traitement contractuel des coupons, dividendes et produits ;
+- coûts et fiscalité intégrés.
+
+Un compte-titres nanti reste du collatéral, pas du cash libre. Les DSRA, réserves fiscales et CAPEX restent séparées et ne doivent pas être placées en Growth.
+
+### Crédit vendeur, cash-out et OBO
+
+Le cash issu d'une revente ou d'un refinancement ne constitue pas de la richesse supplémentaire tant que la dette vendeur reste due.
+
+```text
+cash économique net =
+cash encaissé
+- dette vendeur
+- autres dettes
+- sûretés / réserves immobilisées
+- frais et fiscalité
+```
+
+Un OBO ne crée pas de cash sans financeur externe. Sur un petit actif, comparer d'abord le refinancement simple ; réserver l'OBO aux portefeuilles ou plateformes dont la taille justifie droits de mutation, fiscalité, valorisation, conflits d'intérêts et coûts de structure.
+
+Voir : [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+
 ### Crédit-bail immobilier
 
 Le refinancement se fait plutôt via :

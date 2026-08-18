@@ -13,6 +13,8 @@ Définir quelles stratégies peuvent coexister dans Fruits sans créer une struc
 | Usufruit / NP | Exception | Oui | Oui | Outil specifique pour FO patrimoniaux, actif stable et fiscalite validee |
 | Actions de préférence | Oui | Oui | Oui | Bon complément d'equity, pas une dette garantie |
 | Private debt bridge | Oui | Oui | Opportuniste | Pour vitesse / track record, pas long terme |
+| Crédit vendeur Balloon / Step | Opportuniste | Oui | Oui | Paiement différé, coût complet et ballon à sécuriser |
+| Crédit vendeur Zero | Experimental | Experimental | Oui sous matching | Mur de remboursement intégral |
 | Refinancement | Oui | Oui | Oui | Sortie / optimisation après stabilisation, pas hypothèse magique |
 | Lombard | Très limité | Limité | Oui | Holding uniquement, LTV basse |
 | ETF/collar | Holding seulement | Holding | Holding | Jamais réserve risquée dans SPV financée |
@@ -270,6 +272,19 @@ dette 18 mois
 ```
 
 Risque : refinancement forcé.
+
+### Ballons vendeur concentrés
+
+```text
+plusieurs dettes vendeur
++ mêmes années d'échéance
++ Protection insuffisante
++ refinancement supposé
+```
+
+Risque : mur de maturité groupe malgré des actifs rentables.
+
+Voir : [Vente à terme / crédit vendeur — système Fruits](../04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
 
 ### Mismatch de liquidité
 

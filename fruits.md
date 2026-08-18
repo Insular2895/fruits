@@ -52,7 +52,10 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [SPV + actions de préférence](04_Operationnel/08_SPV_Actions_De_Preference.md)
 - [Math check / modèles Fruits](04_Operationnel/09_Modeles_Math_Check.md)
 - [Refinancement](04_Operationnel/10_Refinancement.md)
+- [Crédit in fine immobilier](04_Operationnel/11_Credit_In_Fine_Fruits.md)
 - [Rémunération Fruits / waterfall / promote](04_Operationnel/11_Remuneration_Fruits_Waterfall.md)
+- [Vente à terme / crédit vendeur — système Fruits](04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md)
+- [Procurement Chine / ameublement Fruits](04_Operationnel/13_Procurement_Chine_Ameublement_Fruits.md)
 
 ## Prospection
 - [Géographie de prospection](05_Prospection/01_Geographie_Prospection.md)

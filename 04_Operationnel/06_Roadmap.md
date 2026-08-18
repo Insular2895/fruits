@@ -64,7 +64,7 @@ Ces éléments ne doivent pas être remplis à l'avance avec de faux chiffres. L
 - Démarrage SAS/SPV par actif.
 - Produit par défaut : co-invest opérateur avec dette senior prudente, investisseur majoritaire et Fruits co-invest minoritaire.
 - Variante possible : usufruit juridique seulement si actif stable, durée longue, FO patrimonial et fiscalité validée.
-- Autres produits possibles : ADP, bridge ou dette senior + equity selon financeur.
+- Autres produits possibles : ADP, bridge, dette senior + equity ou crédit vendeur Balloon / Step si vendeur scoré et stress sans refinancement ; Zero reste expérimental.
 - Data room complète.
 - Scénario vente vs refinancement documenté.
 - Premier investisseur FO / UHNWI / bridge selon structure.

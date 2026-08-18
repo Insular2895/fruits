@@ -215,6 +215,19 @@ moins de 50 % amortissable -> réservé aux dossiers très solides
 
 Ces proportions sont des hypothèses de travail, pas des standards garantis.
 
+### 6.4 Crédit bancaire in fine versus crédit vendeur
+
+Le crédit bancaire in fine et les produits vendeurs déplacent tous deux du principal vers le futur, mais ils ne sont pas interchangeables :
+
+| Dette | Paiement courant | Principal final | Créancier / cadre | Source Fruits |
+| --- | --- | --- | --- | --- |
+| Banque in fine | intérêts bancaires | capital bancaire | banque, politique de crédit et garanties bancaires | cette note |
+| Fruits Zero | intérêts vendeur | solde vendeur intégral | acte de vente, vendeur et sûreté négociée | [système crédit vendeur](12_Vente_A_Terme_Credit_Vendeur_Fruits.md) |
+| Fruits Balloon | intérêts + principal partiel | ballon vendeur réduit | idem | [système crédit vendeur](12_Vente_A_Terme_Credit_Vendeur_Fruits.md) |
+| Fruits Step | paiements croissants | ballon éventuel | idem | [système crédit vendeur](12_Vente_A_Terme_Credit_Vendeur_Fruits.md) |
+
+Dans tous les cas, le différé ne crée pas de cash libre et exige un plan de remboursement indépendant d'un refinancement supposé.
+
 ---
 
 ## 7. Coût réel

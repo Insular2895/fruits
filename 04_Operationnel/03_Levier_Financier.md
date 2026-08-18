@@ -18,6 +18,7 @@ Identifier les leviers qui peuvent améliorer le rendement ou réduire le coût 
 
 ### Leviers utiles mais à cadrer
 
+- Crédit vendeur / vente à terme : Balloon ou Step sous conditions ; Zero expérimental.
 - Crédit lombard : uniquement holding, LTV basse, jamais pour financer pertes opérationnelles.
 - Financement vert / ESG : seulement si travaux mesurables et justificatifs.
 - Quotas carbone / certificats : à traiter comme bonus potentiel, jamais comme base du business plan.
@@ -147,6 +148,31 @@ Conditions minimales :
 - réserves reconstituées avant distribution.
 
 Voir : [Refinancement](10_Refinancement.md).
+
+### Crédit vendeur / vente à terme
+
+Le crédit vendeur diffère le paiement du prix ; il ne remet pas du cash à Fruits.
+
+Usages :
+
+- remplacer une partie de l'equity ou de la dette bancaire ;
+- adapter bouquet, durée et paiement au besoin réel du vendeur ;
+- financer un actif qui reste viable en exploitation ou à la vente ;
+- conserver une option de refinancement, sans en dépendre.
+
+Règles de prudence :
+
+- distinguer LTV bancaire, LTV vendeur et LTV totale ;
+- inclure bouquet, frais, travaux et réserves dans les sources et emplois ;
+- calculer le coût complet, y compris surprix, sûretés et bonus ;
+- ne pas empiler une dette bancaire sur le bouquet sans accord de rang et stress DSCR ;
+- ne jamais compter le solde vendeur comme cash ;
+- maintenir DSRA, fiscalité et CAPEX hors du portefeuille Growth ;
+- considérer toute portabilité après revente comme expérimentale.
+
+La dette ne peut rester après la revente que si le vendeur l'accepte et si l'hypothèque est maintenue, purgée ou remplacée par une sûreté documentée. Le compte-titres nanti ne rend pas automatiquement ses arbitrages, coupons ou dividendes disponibles.
+
+Voir : [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
 
 ## Phrase de décision
 

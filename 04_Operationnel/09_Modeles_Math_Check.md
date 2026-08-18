@@ -201,3 +201,108 @@ Conclusion :
 - 70/30 en faveur investisseur est crédible au début ;
 - 70/30 en faveur Fruits est agressif ;
 - pour l'obtenir, l'investisseur doit déjà avoir reçu capital + priorité + protection forte, ou être plafonné dans son rendement.
+
+## 9. Vente à terme / crédit vendeur
+
+Source et hypothèses complètes : [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+
+### Sources et emplois
+
+```text
+cash initial Fruits =
+bouquet
++ frais d'acquisition
++ travaux
++ réserves initiales
+- financements externes effectivement obtenus
+```
+
+Cas standard :
+
+```text
+500 k€ d'actif
+- 400 k€ de dette vendeur
+= 100 k€ d'equity hors frais
+
+100 k€ de bouquet + 40 k€ de frais
+= 140 k€ de cash initial avant travaux et réserves
+```
+
+### Échéancier
+
+```text
+intérêt_t = solde_début_t × taux_période
+principal_t = max(0, paiement_t - intérêt_t)
+solde_fin_t = solde_début_t + intérêt_t - paiement_t
+
+ballon à mensualité constante =
+P(1+r)^n - M × ((1+r)^n - 1) / r
+```
+
+Résultats recalculés sur 400 k€, 1,5 %, 120 mois :
+
+| Produit | Paiements courants | Ballon | Intérêts totaux |
+| --- | ---: | ---: | ---: |
+| Zero, 500 €/mois | 60 000 € | 400 000 € | 60 000 € |
+| Balloon, 1 500 €/mois | 180 000 € | 270 620 € | 50 620 € |
+| Step, 500 / 1 000 / 2 000 €/mois | 150 000 € | 306 307 € | 56 307 € |
+
+### Couverture et spread
+
+```text
+LTV totale = toutes dettes financières / valeur prudente
+DSCR = NOI / service annuel de dette
+
+valeur collatérale ajustée =
+cash + somme(valeur de marché × (1 - haircut))
+
+couverture vendeur =
+valeur collatérale ajustée / dette vendeur
+
+spread net =
+rendement net du capital conservé
+- coût complet annualisé du crédit vendeur
+```
+
+Le coût complet inclut intérêts, surprix, sûretés, assurance/garantie, bonus, frais et capital immobilisé.
+
+### Vente et refinancement
+
+```text
+cash net de vente =
+prix encaissé
+- dette vendeur remboursée
+- autres dettes
+- frais de vente
+- fiscalité
+
+dette refinance maximale =
+minimum(
+  valeur prudente × LTV autorisée,
+  dette supportable au DSCR,
+  limite prêteur
+)
+```
+
+La dette vendeur maintenue après revente reste une dette : le portefeuille nanti n'est pas du cash libre.
+
+### Stress tests obligatoires
+
+- taux vendeur : 0 %, 1 %, 1,5 %, 2 %, 3 %, 4 % ;
+- durée : 5, 7, 10, 15 ans ; 20 ans uniquement en scénario expérimental ;
+- NOI : 24 k€ et 30 k€ annuels ;
+- valeur immobilière : -10 %, -20 % ;
+- Growth : -30 %, -50 % ;
+- revente : 3, 6, 12, 36, 60 mois ou aucune ;
+- refinancement : taux +200 bps ou impossible 24 mois ;
+- portabilité refusée ;
+- couverture vendeur : 100 %, 110 %, 120 %, 130 % ;
+- rémunération : 0, Growth First, équilibrée, confort.
+
+### Garde-fous
+
+- DSCR normal > 1,30x ;
+- DSCR stress > 1,20x ;
+- DSRA et réserves pleines ;
+- aucun double comptage de l'equity, des intérêts, du portefeuille nanti ou de la rémunération ;
+- aucun scénario GO si le seul remboursement du ballon est un refinancement non engagé.

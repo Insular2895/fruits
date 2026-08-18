@@ -34,15 +34,28 @@ L'usufruit juridique n'est plus le produit par defaut. Il devient une exception 
 | PME BTP | Co-invest PE / LBO | Non | Oui acquisition | Monitoring fee + EBITDA uplift + carry |
 | Infrastructure longue | Droit reel long / lease | Oui si adapte | Oui au demarrage | Revenus long terme + option + valeur |
 
+## Produits de paiement vendeur
+
+Le crédit vendeur est une couche de financement d'acquisition, pas une nouvelle classe d'actif. Sa source opérationnelle unique est [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+
+| Produit vendeur | Paiement | Utilité | Risque principal | Statut |
+| --- | --- | --- | --- | --- |
+| Fruits Balloon | mensualité petite ou moyenne + ballon | compromis vendeur / Fruits | mensualité et capital final | GO sous conditions |
+| Fruits Zero | intérêts seuls + principal final | liquidité courante maximale | mur de remboursement | experimental |
+| Fruits Step | paiements croissants + ballon possible | garder du cash tôt puis réduire le risque | DSCR des dernières années | GO sous conditions |
+
+Les paiements annuel/trimestriel, le partage d'upside et la stratégie self-liquidating sont des options, pas des produits supplémentaires.
+
 ## Roadmap produit
 
 1. Premier appartement / colocation.
 2. Immeuble locatif optimise, avec objectif portefeuille et repetition.
-3. Pool immobilier Fruits apres plusieurs operations documentees.
-4. Reprise PME BTP quand le socle immobilier, travaux et reporting est robuste.
-5. Cabinet dentaire / sante infra comme nouvelle source de tresorerie, sans operation medicale.
-6. Residence services, logement etudiant ou mixed-use smart building.
-7. Infrastructure longue duree : energie, eau, carbone, foncier.
+3. Tester Balloon ou Step sur un vendeur scoré A/B uniquement si le deal passe le stress sans refinancement ; Zero reste expérimental.
+4. Pool immobilier Fruits apres plusieurs operations documentees et une ladder de maturités vendeur.
+5. Reprise PME BTP quand le socle immobilier, travaux et reporting est robuste.
+6. Cabinet dentaire / sante infra comme nouvelle source de tresorerie, sans operation medicale.
+7. Residence services, logement etudiant ou mixed-use smart building.
+8. Infrastructure longue duree : energie, eau, carbone, foncier.
 
 ## Regle de priorite
 

@@ -96,7 +96,7 @@ Financeurs ajoutés après audit :
 - PSFP / crowdfunding : canal utile pour un bridge simple, mais soumis à cadre AMF/PSFP et à une communication risques stricte.
 - Banque des Territoires / CDC : utile seulement si impact territorial réel ; pas un financeur de pur rendement résidentiel.
 - SCPI / OPCI / SIIC : plutôt acheteurs de sortie ou partenaires d'actifs stabilisés que financeurs de lancement.
-- Crédit vendeur : excellent outil opportuniste si le vendeur accepte un paiement différé, avec validation notaire/banque.
+- Crédit vendeur : outil opportuniste Balloon / Step, Zero expérimental, si le vendeur accepte le différé et si le deal passe sans refinancement supposé. Voir [le système crédit vendeur](04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
 - Crédit-bail immobilier : pertinent pour immobilier d'exploitation, peu adapté à une foncière résidentielle passive.
 
 ## Cohérence mathématique - règles minimales
