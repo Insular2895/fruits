@@ -501,7 +501,19 @@ cash encaissé
 
 Un OBO ne crée pas de cash sans financeur externe. Sur un petit actif, comparer d'abord le refinancement simple ; réserver l'OBO aux portefeuilles ou plateformes dont la taille justifie droits de mutation, fiscalité, valorisation, conflits d'intérêts et coûts de structure.
 
-Voir : [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+Si le cash monétisé doit servir de force de bilan pour le Deal suivant, distinguer :
+
+```text
+liquidité comptable
+- sûretés vendeur et banque
+- haircuts
+- réserves / DSRA / fiscalité
+= capital libre réel
+```
+
+Un refinancement qui conserve le bien doit présenter simultanément le bien à l'actif, l'ancienne dette restante, la nouvelle dette de cash-out et les frais. Une vente qui sort le bien ne peut plus compter sa valeur dans les actifs du groupe. Mélanger ces deux périmètres surévalue la NAV et la capacité d'acquisition.
+
+Voir : [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md) et [Capital preservation + acquisition leverage](12_Vente_A_Terme_Credit_Vendeur_Fruits.md#6-bis-capital-preservation--acquisition-leverage).
 
 ### Crédit-bail immobilier
 

@@ -24,6 +24,7 @@ Les sources historiques servent de mémoire et de matière première. Elles ne r
 - [Diagnostic 360](00_Diagnostic_360.md)
 - [Chassis standard Fruits](04_Operationnel/00_Chassis_Standard_Fruits.md)
 - [Plan global 1M et execution](01_Strategie/02_Plan_Global_1M_Et_Execution.md)
+- [Univers d'investissement et allocation de capital Fruits](01_Strategie/07_Univers_Investissement_Fruits.md)
 - [Capital stack / financeurs](02_Investisseurs/00_Capital_Stack.md)
 - [Modeles math check](04_Operationnel/09_Modeles_Math_Check.md)
 - [Refinancement](04_Operationnel/10_Refinancement.md)
@@ -51,7 +52,8 @@ Les sources historiques servent de mémoire et de matière première. Elles ne r
 ### Strategie
 
 - Lombard prudent : LTV cible 20-25%, maximum interne 30%, reserve cash 30-50% du lombard.
-- ETF / T-Bills / monetaire : reserve et allocation encadrees, sans confondre tresorerie de securite et moteur de rendement.
+- Univers d'investissement : Fortress rembourse les engagements, Protection+ améliore le rendement prudent et Growth porte le surplus réel.
+- ETF actions : Growth uniquement, jamais réserve de sécurité, DSRA ou poche de remboursement.
 - FX / currency : financement en devise seulement si le risque est compris, couvert et coherent avec les flux.
 - Strategies empilables : distinction entre ce qui peut etre combine et ce qui doit rester separe.
 
@@ -111,6 +113,8 @@ Le bloc operationnel detaille :
 - VEFA / travaux dans le neuf ;
 - SPV avec actions de preference ;
 - refinancement ;
+- crédit in fine, crédit vendeur et capital preservation ;
+- modèle exécutable Deal 1 → Deal 5 ;
 - remuneration Fruits et promote.
 
 ### Prospection

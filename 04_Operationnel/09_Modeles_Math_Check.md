@@ -88,6 +88,26 @@ Total = 8 500 EUR hors assurance
 
 Conclusion : le calcul est cohérent, mais le calendrier réel dépend du contrat VEFA et des appels de fonds.
 
+### Comparaison du différé — hypothèse post-livraison 20 ans à 3,40 %
+
+```text
+Option A — intérêts intercalaires payés :
+cash avant livraison = 8 500 EUR hors assurance
+capital amorti après livraison = 250 000 EUR
+mensualité = 1 437,09 EUR hors assurance
+intérêts post-livraison = 94 900,59 EUR
+coût total hors assurance = 103 400,59 EUR
+
+Option B — capitalisation simplifiée des 8 500 EUR :
+cash d'intérêts avant livraison = 0 EUR hors assurance
+capital amorti après livraison = 258 500 EUR
+mensualité = 1 485,95 EUR hors assurance
+intérêts post-livraison = 98 127,21 EUR
+coût total rapporté aux 250 000 EUR initiaux = 106 627,21 EUR
+```
+
+L'option B préserve 8 500 EUR avant livraison, mais ajoute 8 500 EUR au solde, 48,86 EUR à la mensualité et 3 226,62 EUR au coût total dans cette simplification. Une capitalisation périodique peut ajouter davantage d'intérêts sur intérêts. L'assurance restait au moins payée dans le montage décrit lors de l'échange SG du 20 août 2026 ; seule l'offre fixe le traitement exact.
+
 ## 5. DSCR
 
 Formule :
@@ -259,12 +279,38 @@ cash + somme(valeur de marché × (1 - haircut))
 couverture vendeur =
 valeur collatérale ajustée / dette vendeur
 
+coverage ratio in fine =
+valeur de marché du portefeuille / capital à couvrir
+
+coverage shortfall =
+max(0, couverture contractuelle minimale - valeur de couverture reconnue)
+
 spread net =
 rendement net du capital conservé
 - coût complet annualisé du crédit vendeur
 ```
 
 Le coût complet inclut intérêts, surprix, sûretés, assurance/garantie, bonus, frais et capital immobilisé.
+
+### Poche de remboursement in fine — retour SG et hypothèses Fruits
+
+```text
+capital initial nanti
++ versements périodiques
++ rendement net réellement constaté
+= capital attendu
+```
+
+**Information confirmée par la conseillère SG :** exemple de 250 k€ sur environ quinze ans, 20 % initiaux soit 50 k€, puis versements réguliers ; une couverture proche de 100 % sur support sûr ou 130 % sur une poche plus risquée a été évoquée. **Hypothèse Fruits :** rendement net régulier de 3 % utilisé ci-dessous. Les ratios 20 % et 130 % ne sont pas des règles universelles.
+
+| Couverture | Capital cible | Mensuel à 3 % net | Mensuel à 0 % | Écart de cible vs 100 % |
+| ---: | ---: | ---: | ---: | ---: |
+| 100 % | 250 000 € | 756,16 € | 1 111,11 € | 0 € |
+| 110 % | 275 000 € | 866,31 € | 1 250,00 € | 25 000 € |
+| 120 % | 300 000 € | 976,45 € | 1 388,89 € | 50 000 € |
+| 130 % | 325 000 € | 1 086,60 € | 1 527,78 € | 75 000 € |
+
+La cible de 325 k€ n'est pas nécessairement présente au jour 1. Elle désigne ici la valeur finale recherchée lorsque le ratio de 130 % s'applique. Sous-performance, haircuts, calendrier des tests et remède contractuel restent à confirmer ; ne pas appeler automatiquement le déficit « appel de marge ».
 
 ### Vente et refinancement
 
@@ -306,3 +352,99 @@ La dette vendeur maintenue après revente reste une dette : le portefeuille nant
 - DSRA et réserves pleines ;
 - aucun double comptage de l'equity, des intérêts, du portefeuille nanti ou de la rémunération ;
 - aucun scénario GO si le seul remboursement du ballon est un refinancement non engagé.
+
+## 10. Capital preservation + acquisition leverage
+
+Source canonique : [section 6 bis du modèle crédit vendeur](12_Vente_A_Terme_Credit_Vendeur_Fruits.md#6-bis-capital-preservation--acquisition-leverage). Calcul reproductible : [notebook Deal 1 → Deal 5](modeles/01_Capital_Preservation_Multi_Deals.ipynb).
+
+### Sources & uses du bouquet
+
+```text
+equity Fruits + dette banque + dette vendeur = prix d'acquisition
+```
+
+Exemple Deal 2 :
+
+```text
+20 k€ equity Fruits
++ 60 k€ dette banque
++ 420 k€ dette vendeur
+= 500 k€
+```
+
+La dette banque n'est ni « apport » ni equity.
+
+### Capital libre et borrowing base
+
+```text
+capital libre réel =
+actifs liquides non grevés
+- réserves obligatoires
+- fiscalité exigible
+- DSRA
+
+borrowing base disponible =
+max(0,
+  somme[valeur de marché_i × (1 - haircut_i)]
+  - expositions garanties de rang supérieur
+)
+
+capacité banque = minimum(
+  engagement approuvé,
+  capacité DSCR,
+  capacité LTV,
+  borrowing base disponible
+)
+```
+
+Ne pas soustraire deux fois un même actif et ne pas additionner le collatéral à l'emprunt qu'il garantit. Si 400 k€ de portefeuille sont déjà affectés à 400 k€ de dette vendeur, le capital libre peut être nul malgré 400 k€ de liquidité comptable.
+
+### Capacité d'acquisition
+
+```text
+Next Deal Capital =
+cash libre + equity externe confirmée + dette bouquet confirmée
+
+Acquisition Capacity =
+Next Deal Capital + crédit vendeur signé
+```
+
+Ces KPI sont des capacités contractuelles, pas une mesure de richesse.
+
+### Levier et solvabilité consolidés
+
+```text
+Total Group Leverage = dette financière totale / actifs bruts ajustés
+NAV = actifs prudents - passifs et provisions
+Net Debt / NAV = (dette totale - liquidités non grevées mobilisables) / NAV
+Debt / Equity = dette totale / NAV ajustée
+```
+
+Si `NAV ≤ 0`, les deux derniers ratios sont non significatifs et le modèle déclenche un STOP. Calculer à chaque niveau : deal, SPV, holding et groupe.
+
+### Spread net du capital conservé
+
+```text
+spread net après coûts =
+rendement du capital conservé après frais et impôt
+- intérêt bancaire
+- assurance et frais annualisés
+- garantie / nantissement
+- hedge éventuel
+- pertes attendues et coût de liquidité
+```
+
+À 60 k€, 5 % de rendement et 4 % de banque, le spread avant coûts n'est que 600 €/an. À 0 % de rendement, la stratégie perd 2 400 €/an avant frais supplémentaires.
+
+### Contrôles automatiques minimum
+
+- sources = uses pour chaque deal ;
+- aucune poche utilisée deux fois ;
+- total dettes = banque + vendeurs + private debt + autres dettes ;
+- échéanciers et ballons rapprochés des poches dédiées ;
+- stress taux +100/+200/+400 bps ;
+- in fine refusé et dette amortissable recalculée ;
+- loyers -20 %, vacance 6/12 mois, travaux +20 % ;
+- immobilier -10/-20 %, portefeuille 0 % et -20/-30/-50 % selon poche ;
+- haircut augmenté, second rang et portabilité refusés ;
+- refinancement impossible deux puis cinq ans.

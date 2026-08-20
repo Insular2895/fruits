@@ -2,9 +2,9 @@
 
 > **Statut :** note opérationnelle à valider avec banque, courtier, notaire, avocat fiscaliste et expert-comptable.  
 > **Juridiction :** France.  
-> **Date de validité :** 6 août 2026.  
+> **Date de validité :** 20 août 2026.
 > **Périmètre :** premiers investissements locatifs de Fruits, notamment appartements exploités en colocation meublée, détenus en personne physique ou via une société/SPV.  
-> **Document lié :** [`10_Refinancement.md`](./10_Refinancement.md).
+> **Documents liés :** [`10_Refinancement.md`](./10_Refinancement.md), [Vente à terme / crédit vendeur — capital preservation](./12_Vente_A_Terme_Credit_Vendeur_Fruits.md#6-bis-capital-preservation--acquisition-leverage) et [Univers d’investissement et allocation de capital Fruits](../01_Strategie/07_Univers_Investissement_Fruits.md).
 
 ---
 
@@ -50,6 +50,27 @@ Le modèle devient destructeur si l’économie de mensualité est consommée al
 
 ---
 
+## Retour bancaire SG — 20 août 2026
+
+> Informations issues d'un échange commercial avec une conseillère SG et non d'une offre de prêt ferme.
+
+Trois niveaux de provenance sont utilisés ci-dessous : **information confirmée par la conseillère SG**, **règle générale à vérifier** et **hypothèse Fruits**. Les propos bancaires ne constituent ni un avis juridique ou fiscal, ni une condition universelle de marché.
+
+- **Information confirmée par la conseillère SG :** un financement locatif in fine paraît envisageable, y compris pour une SCI/personne morale selon le produit et le dossier, avec une durée évoquée d'environ quinze ans et, selon le cas, une caution solidaire des associés. L'éligibilité exacte de Fruits reste à confirmer par écrit.
+- **Information confirmée par la conseillère SG :** indication commerciale d'environ **4,15 % sur quinze ans** au 20 août 2026. Ce taux est non engageant, dépend du client et du moment ; toute dérogation peut être limitée. Il ne doit pas être utilisé comme une offre ferme.
+- **Information confirmée par la conseillère SG :** le produit décrit associe le prêt à une poche financière dédiée, alimentée au départ puis régulièrement pour viser le remboursement intégral au terme. L'exemple évoqué était proche de **20 % au départ**, puis constitution progressive du solde ; ce pourcentage n'est ni légal ni universel.
+- **Information confirmée par la conseillère SG :** les versements périodiques dépendent du capital cible, de la valeur déjà constituée, du rendement retenu et du temps restant. Une sous-performance peut imposer d'augmenter les versements. Cela devient un `coverage shortfall`, et non automatiquement un « appel de marge » juridique, sauf clause contractuelle en ce sens.
+- **Information confirmée par la conseillère SG :** un support jugé sûr pourrait être retenu près de 100 % de couverture, tandis qu'une poche plus risquée ou en unités de compte pourrait conduire à environ 130 % dans l'exemple présenté (« clause d'arrosage »). Le ratio, ses dates de test, les haircuts et les remèdes doivent être confirmés dans la term sheet.
+- **Information confirmée par la conseillère SG :** arbitrages, retraits et gains ne sont pas automatiquement libres. Le processus décrit est une demande à la banque, une levée temporaire, l'arbitrage puis la remise en nantissement, sur quelques jours. Ce n'est pas un CTO librement tradé.
+- **Information confirmée par la conseillère SG :** un prêt amortissable dit « évolutif » peut, selon son contrat, offrir modulation ou pause, les intérêts continuant à courir. L'in fine décrit n'offrait pas la même souplesse. Cette distinction n'est pas une règle valable pour tous les prêts SG.
+- **Règle générale à vérifier :** le support exact lorsque l'emprunteur est une SCI — assurance-vie d'un associé, contrat de capitalisation, compte-titres ou autre —, la garantie réelle, l'éligibilité à Crédit Logement, les ETF/haircuts et le processus d'arbitrage sont **À confirmer avec SG**.
+- **Règle générale à vérifier :** une garantie peut renforcer le dossier, mais ne remplace ni la capacité de remboursement ni l'analyse des loyers, charges et risques.
+- **Hypothèse Fruits :** le schéma conceptuel « années 0–10 davantage de croissance, années 10–15 davantage de supports sécurisés » peut réduire le risque, uniquement si les supports, arbitrages et seuils de couverture sont autorisés par la banque. Ce n'est ni une allocation validée ni un droit contractuel. Aucun ETF n'est automatiquement supérieur à un support sécurisé.
+
+L'exemple de 250 k€ donne **50 k€ de versement initial** à 20 %. Une cible finale de 130 % représente **325 k€ de valeur de couverture**, pas 325 k€ nécessairement présents au jour 1. Il faut toujours distinguer le capital final à rembourser, la valeur de couverture exigée, le versement initial et les versements mensuels.
+
+---
+
 ## 2. Définition simple
 
 Un prêt in fine est un prêt dans lequel :
@@ -57,7 +78,9 @@ Un prêt in fine est un prêt dans lequel :
 - les intérêts sont payés périodiquement ;
 - le capital n’est pas amorti, ou très peu ;
 - le capital est remboursé en une fois à l’échéance ;
-- le remboursement final provient d’une vente, d’un refinancement, d’une épargne accumulée, d’un apport de la holding ou d’une combinaison de ces sources.
+- le remboursement final doit avoir une source contractuellement crédible.
+
+Dans le produit décrit par la conseillère SG, la source structurante est la poche financière nantie constituée pour atteindre le capital dû au terme. Une vente, un refinancement ou une garantie peut compléter le plan, mais la vente ne doit pas être présentée comme l'unique mécanisme de remboursement de ce produit.
 
 Exemple :
 
@@ -181,8 +204,12 @@ La durée doit permettre de stabiliser l’actif, traverser un cycle défavorabl
 
 ### 6.2 100 % in fine
 
-**Avantages :** mensualité courante plus faible, trésorerie préservée, capacité théorique de réinvestissement supérieure.  
-**Inconvénients :** intérêts totaux plus élevés, capital intégral dû, discipline d’épargne obligatoire, dépendance à la sortie, garanties plus exigeantes.
+**Avantages :** amortissement immobilier courant nul, ce qui peut modifier le profil des flux et laisser davantage de choix d'allocation sous réserve du contrat.
+**Inconvénients :** intérêts totaux plus élevés, capital intégral dû, poche nantie initiale et versements réguliers possibles, actifs immobilisés, discipline d’épargne obligatoire et garanties plus exigeantes.
+
+L'absence d'amortissement du prêt ne signifie donc pas que « tout le capital est libre ». Les versements dans la poche de remboursement sont une sortie de trésorerie économique et le portefeuille peut rester juridiquement grevé.
+
+> Le crédit in fine préserve l'amortissement bancaire du capital, mais ne signifie pas que l'intégralité du capital économique est libre. La banque peut exiger la constitution progressive d'une poche financière dédiée au remboursement final.
 
 ### 6.3 Mix amortissable/in fine
 
@@ -251,7 +278,7 @@ intérêts
 
 ### Pourquoi l’in fine coûte plus cher
 
-Sur un amortissable, les intérêts sont calculés sur un capital décroissant. Sur un in fine, ils restent calculés sur la totalité du capital.
+Sur un amortissable, les intérêts sont calculés sur un capital décroissant. Sur un in fine, ils restent calculés sur la totalité du capital. La banque reste exposée au principal complet pendant la durée, ce qui peut aussi se traduire par un taux ou des garanties supérieurs selon le dossier.
 
 ```text
 capital : 300 000 EUR
@@ -273,6 +300,19 @@ surcoût net du financement in fine
 ```
 
 Le rendement doit être calculé après frais, impôts, volatilité et pertes éventuelles. Le rendement historique d’un ETF ne garantit pas le rendement futur.
+
+### 7.1 Simulation de poche dédiée — 250 k€ sur quinze ans
+
+**Information confirmée par la conseillère SG :** exemple de versement initial à 20 %, soit 50 k€. **Hypothèse Fruits :** rendement net régulier de 3 % par an, sans frais, fiscalité, volatilité ni changement de support. Les mensualités ci-dessous sont purement pédagogiques.
+
+| Couverture cible | Capital cible au terme | Versement initial | Versement mensuel à 3 % net | Versement mensuel à 0 % | Capital immobilisé cible |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 100 % | 250 000 € | 50 000 € | 756 € | 1 111 € | 250 000 € |
+| 110 % | 275 000 € | 50 000 € | 866 € | 1 250 € | 275 000 € |
+| 120 % | 300 000 € | 50 000 € | 976 € | 1 389 € | 300 000 € |
+| 130 % | 325 000 € | 50 000 € | 1 087 € | 1 528 € | 325 000 € |
+
+Passer de 100 % à 130 % augmente ici la cible immobilisée de 75 k€ et le versement mensuel illustratif d'environ 330 € à 3 %. Cela réduit la flexibilité en échange d'une marge de couverture plus importante. Le 130 % n'est pas une règle SG universelle : il faut confirmer support, rendement retenu par la banque, fréquence des contrôles, haircuts, remèdes et droits de retrait.
 
 ---
 
@@ -383,6 +423,8 @@ L’in fine produit moins d’equity immobilière qu’un amortissable, mais peu
 
 ## 9. Les enveloppes de trésorerie
 
+La présente section affecte les flux aux besoins du crédit in fine. Le catalogue d'actifs, les taux, les enveloppes juridiques, les limites et le glide path de référence sont centralisés dans [Univers d’investissement et allocation de capital Fruits](../01_Strategie/07_Univers_Investissement_Fruits.md).
+
 ### 9.1 Exploitation
 
 Objet : dette, charges, vacance, impayés, sinistres et urgences.  
@@ -401,7 +443,7 @@ Objet : CAPEX, copropriété, rénovation entre locataires, mobilier, énergie. 
 
 Objet unique : rembourser ou réduire le capital final.
 
-Supports possibles : dépôt, compte à terme, fonds monétaire, fonds euros, obligations courtes, et éventuellement une part d’ETF si l’échéance est éloignée.
+Supports possibles : univers Fortress/Protection+ correspondant à l'échéance, mais uniquement parmi les supports acceptés au nantissement. Une part d'ETF n'est défendable que si le contrat l'autorise, si la couverture après haircut reste suffisante et si la volatilité n'expose pas la poche à un déficit — jamais parce qu'un ETF serait automatiquement plus performant ou plus adapté.
 
 Trajectoire indicative :
 
@@ -411,6 +453,8 @@ plus de 10 ans -> part actions possible
 2 à 5 ans -> majorité prudente
 moins de 2 ans -> capital nécessaire presque entièrement sécurisé
 ```
+
+Cette trajectoire est une **hypothèse Fruits**, pas une faculté acquise. Les arbitrages peuvent nécessiter l'accord préalable de la banque et la surperformance ne devient pas automatiquement retirable.
 
 ### 9.5 Prochain bien
 
@@ -439,6 +483,8 @@ Objet : patrimoine financier, capital sponsor, diversification hors immobilier e
 
 ### Société
 
+La compatibilité actif × enveloppe ne doit pas être supposée ; utiliser la [matrice canonique](../01_Strategie/07_Univers_Investissement_Fruits.md) puis obtenir confirmation de l'établissement.
+
 - compte-titres professionnel ;
 - fonds monétaires ;
 - comptes à terme ;
@@ -447,6 +493,8 @@ Objet : patrimoine financier, capital sponsor, diversification hors immobilier e
 - ETF acceptés par l’établissement.
 
 À valider avec l’expert-comptable : comptabilisation, imposition, dépréciations, objet social, intérêt social et conventions intragroupe.
+
+**À confirmer avec SG :** pour une SCI emprunteuse, le produit exact peut reposer sur un contrat de capitalisation, un compte-titres, une assurance-vie appartenant à un associé ou un autre support. L'échange du 20 août 2026 n'a pas permis de trancher ce point, ni Crédit Logement, la garantie réelle ou les haircuts appliqués aux ETF.
 
 ### Architecture Fruits
 
@@ -865,10 +913,21 @@ DSCR = cash disponible pour la dette / service annuel de la dette
 ICR = revenu avant intérêts / intérêts
 Equity = valeur prudente - dette immobilière
 Couverture in fine = poche dédiée / capital in fine restant dû
+Coverage ratio = valeur de marché du portefeuille / capital à couvrir
+Coverage shortfall = max(0, couverture contractuelle minimale - valeur de couverture reconnue)
 Mois de réserve = réserve / dépenses mensuelles stressées
 ```
 
-La définition exacte suit le contrat bancaire.
+Tester au minimum des cibles de 100 %, 110 %, 120 % et 130 %. La définition exacte de la valeur reconnue, des haircuts, des dates de test et des remèdes suit le contrat bancaire.
+
+La trajectoire de constitution se contrôle par :
+
+```text
+capital initial nanti
++ versements périodiques
++ rendement net réellement constaté
+= capital attendu
+```
 
 Construire une maturity ladder annuelle : dette arrivant à échéance, capital in fine, refinancement prévu, vente prévue, poche disponible et déficit éventuel.
 
@@ -990,6 +1049,22 @@ Modèle économique futur : equity, sourcing, gestion de travaux, asset manageme
 37. Quel reporting ?  
 38. Quel historique ?
 
+### Bouquet bancaire adossé à un crédit vendeur
+
+39. Acceptez-vous de financer une partie du bouquet d’un achat dont le solde est financé par le vendeur ?
+40. Exigez-vous une part minimale de véritable equity Fruits, hors dette et hors portefeuille grevé ?
+41. Le financement du bouquet peut-il être amortissable, in fine ou hybride ?
+42. Quelle durée maximale, quel taux indicatif et quel coût all-in ?
+43. Quelles sûretés et quels covenants exigez-vous ?
+44. Acceptez-vous un nantissement de portefeuille financier ?
+45. Quels actifs sont éligibles et quels haircuts appliquez-vous au cash, monétaire, BTF, OAT, corporate IG et ETF World ?
+46. La même poche peut-elle avoir plusieurs créanciers nantis ; si oui, sous quels rangs et quelle convention intercreditor ?
+47. Quelle capacité de crédit accorderiez-vous sur la base d’un portefeuille de 400 k€, de loyers récurrents, de plusieurs actifs et d’un historique positif ?
+48. À partir de quel patrimoine ou track record passez-vous à une analyse corporate plutôt que personnelle ?
+49. En cas de refus de l’in fine, quelle combinaison amortissable/hybride reste acceptable sous DSCR stress ?
+
+Les réponses doivent être obtenues par écrit et rapprochées du [modèle multi-deals](./modeles/01_Capital_Preservation_Multi_Deals.ipynb). Une capacité de crédit indicative n’est pas du cash confirmé ; un portefeuille déjà nanti au vendeur n’est pas présumé disponible pour la banque.
+
 ---
 
 ## 27. Prompt Codex recommandé
@@ -1024,7 +1099,15 @@ Instructions :
 
 ## 28. Sources primaires et officielles à vérifier
 
-Date de consultation cible : 6 août 2026.
+Date de dernière consultation : 20 août 2026.
+
+- Société Générale — Prêt in fine Optis :
+  https://particuliers.sg.fr/emprunter/pret-credit-immobilier/pret-in-fine-optis
+
+- Société Générale — informations générales Optis, novembre 2024 :
+  https://particuliers.sg.fr/static/Particuliers/Medias/Home/Banque/Credit-Immobilier/Pret_in_fine_Optis/Informations-generales-prets-OPTIS-11.2024.pdf
+
+Ces documents publics confirment l'existence d'un prêt locatif in fine adossé à une assurance-vie pour le produit publié et, dans la fiche 2024, une durée de 3 à 15 ans ainsi que des contraintes sur la disposition d'actifs nantis. Ils ne valident ni le taux indicatif du rendez-vous, ni les ratios 20 %/130 %, ni l'éligibilité de la SCI ou du support envisagé par Fruits.
 
 - HCSF — octroi de crédits immobiliers :  
   https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers
@@ -1084,7 +1167,7 @@ Il accélère Fruits uniquement si :
 ```text
 1. la dette reste soutenable
 2. le mix limite le risque final
-3. la trésorerie libérée est réellement réinvestie
+3. l'écart de trésorerie net des versements obligatoires à la poche est réellement réinvesti
 4. les réserves sont séparées
 5. la poche de remboursement est constituée
 6. la vente est préparée tôt

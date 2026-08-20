@@ -2,8 +2,8 @@
 type: operating_strategy
 status: conditional_recommendation
 jurisdiction: France
-updated: 2026-08-18
-tags: [Fruits, credit_vendeur, vente_a_terme, seller_financing, risk]
+updated: 2026-08-20
+tags: [Fruits, credit_vendeur, vente_a_terme, seller_financing, capital_preservation, acquisition_leverage, risk]
 ---
 
 # Vente à terme / crédit vendeur — système Fruits
@@ -12,6 +12,7 @@ tags: [Fruits, credit_vendeur, vente_a_terme, seller_financing, risk]
 >
 > **Validation obligatoire :** notaire, avocat bancaire/fiscaliste, expert-comptable, banque et vendeur sur chaque opération.
 > **Source principale du produit :** cette note remplace les descriptions économiques dispersées. Le pack de prospection reste dans [Pack Crédit vendeur](../02_Investisseurs/16_Pack_Credit_Vendeur.md).
+> **Source canonique des placements :** [Univers d’investissement et allocation de capital Fruits](../01_Strategie/07_Univers_Investissement_Fruits.md). Cette note conserve les stress propres à Zero/Step/Balloon sans dupliquer le catalogue.
 
 ## 0. La distinction impossible à manquer
 
@@ -299,10 +300,17 @@ Voir les canaux dans [Accès aux financeurs](../05_Prospection/02_Acces_Financeu
 | --- | --- | --- | --- |
 | Equity Fruits | pas de dette additionnelle | capital immobilisé | GO |
 | Banque amortissable | dette décroissante | consomme le cash-flow | GO sous DSCR/LTV |
-| Banque in fine | préserve du cash | second ballon, nantissement possible | experimental au stade 1 |
+| Banque in fine | modifie le calendrier des flux | second ballon, poche dédiée et nantissement possibles | hypothèse à tester |
 | Dette privée / FO | flexible et rapide | taux, fees, covenants, exit fee | bridge seulement si marge suffisante |
 | Streaming sur NOI | paiement variable | coût implicite et durée | à modéliser, jamais sur CA brut |
 | Capital externe | réduit la dette | dilution et waterfall | après documentation |
+
+### Périmètre du retour bancaire SG du 20 août 2026
+
+- **Information confirmée par la conseillère SG :** elle a compris le principe d'une éventuelle tranche bancaire destinée au bouquet, sans valider formellement la faisabilité, le montant, le rang, le produit ou les sûretés.
+- **Information confirmée par la conseillère SG :** elle n'a pas validé la portabilité avancée d'une dette vendeur après la revente du bien.
+- **Hypothèse Fruits :** `banque sur bouquet` reste **À TESTER**, jamais un produit disponible ou une capacité confirmée.
+- **Règle générale à vérifier :** maintien de la créance après vente, purge ou substitution de l'hypothèque, nantissement de remplacement, fiscalité et opposabilité doivent être validés par le vendeur, le notaire, l'avocat, le fiscaliste et les prêteurs concernés. Les propos de la conseillère ne valent pas avis juridique ou fiscal.
 
 ### Règle de levier combiné
 
@@ -318,6 +326,309 @@ Le seuil Fruits de 55–65 % vise la dette senior bancaire. Le cas standard affi
 - pas de banque + vendeur sans accord de rang ;
 - pas de frais financés implicitement ;
 - pas de nouvelle acquisition si le stress -20 % efface toute l’equity.
+
+## 6 bis. Capital preservation + acquisition leverage
+
+> Le portefeuille issu des opérations précédentes devient progressivement une force de bilan et de garantie, pas simplement une réserve à consommer comme apport.
+
+> Fruits cherche à minimiser le capital consommé par acquisition, pas à minimiser l’equity économique nécessaire à la solvabilité.
+
+> Préserver le capital n’a de valeur que si le rendement net et la flexibilité obtenus compensent le coût et le risque de la dette supplémentaire.
+
+Cette mécanique ne change pas l’origine du cash : dans l’exemple central, les 400 k€ investissables n’apparaissent qu’après une **monétisation réelle**. Le vendeur n’a jamais remis 400 k€ à Fruits lors de l’achat. Si la monétisation est une vente, le bien 1 sort des actifs. Si elle est un refinancement/OBO, le bien reste à l’actif mais toute nouvelle dette de cash-out doit aussi apparaître au passif.
+
+### 6 bis.1 Deux lectures à ne pas confondre
+
+```text
+Lecture de liquidité : 400 k€ de portefeuille - retrait du bouquet
+Lecture de solvabilité : actifs nets de haircuts - toutes les dettes - tous les gages
+```
+
+L’ancienne mécanique consomme 80 k€ par nouveau deal :
+
+```text
+400 -> 320 -> 240 -> 160 -> 80 k€
+```
+
+La variante capital-efficient finance une partie du bouquet par une dette bancaire :
+
+```text
+400 k€ de portefeuille
+-> conserver au maximum
+-> petite equity Fruits réellement libre
++ banque amortissable / in fine / dette privée
++ nouveau crédit vendeur
+-> nouvel actif
+```
+
+Mais **400 k€ en portefeuille et 400 k€ de dette vendeur ne donnent pas nécessairement 400 k€ de capital libre**. Si le portefeuille garantit le vendeur, sa valeur nominale peut être intégralement grevée ; avec 120 % de couverture exigée, 400 k€ ne couvrent même pas 400 k€ de dette avant haircut. La boucle est alors bloquée sans release, substitution de sûreté, collatéral distinct ou capital externe.
+
+### 6 bis.2 Deal 2 — sources & uses exacts
+
+Bien de 500 k€, nouveau crédit vendeur de 420 k€. La dette bancaire n’est jamais appelée « apport » ou « equity ».
+
+| Cas | Equity Fruits | Dette banque | Crédit vendeur | Total | Dette totale / valeur | Statut de test |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| A — bouquet 100 % equity | 80 k€ | 0 k€ | 420 k€ | 500 k€ | 84 % | high-leverage à tester |
+| B — mix | 40 k€ | 40 k€ | 420 k€ | 500 k€ | 92 % | expérimental au stade 1 |
+| C — levier élevé | 20 k€ | 60 k€ | 420 k€ | 500 k€ | 96 % | expérimental |
+| D — quasi-zéro equity | 5–10 k€ | 70–75 k€ | 420 k€ | 500 k€ | 98–99 % | **EXPERIMENTAL**, jamais base case |
+
+Ces ratios sont ceux du Deal 2 hors frais, travaux, réserves et passif du Deal 1. Ils montrent déjà que la faible banque senior ne rend pas le montage peu levier : le vendeur est aussi un créancier.
+
+### 6 bis.3 Amortissable versus in fine sur le bouquet
+
+Hypothèses pédagogiques : banque 4 %, dix ans ; vendeur 1,5 % ; NOI du Deal 2 de 30 k€ ou 24 k€ en stress. Le DSCR ci-dessous est **consolidé** avec les 6 k€/an d’intérêts de la dette vendeur du Deal 1 et les 6,3 k€/an du vendeur du Deal 2.
+
+| Cas | Banque | Service annuel si in fine | DSCR 30 / 24 | Service annuel si amortissable | DSCR 30 / 24 | Ballon banque |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| A | 0 k€ | 12,30 k€ | 2,44x / 1,95x | 12,30 k€ | 2,44x / 1,95x | 0 k€ |
+| B | 40 k€ | 13,90 k€ | 2,16x / 1,73x | 17,16 k€ | 1,75x / 1,40x | 40 k€ en in fine |
+| C | 60 k€ | 14,70 k€ | 2,04x / 1,63x | 19,59 k€ | 1,53x / **1,23x** | 60 k€ en in fine |
+| D, endpoint 5/75 | 75 k€ | 15,30 k€ | 1,96x / 1,57x | 21,41 k€ | 1,40x / **1,12x** | 75 k€ en in fine |
+
+L’in fine réduit le service de principal immobilier courant, mais laisse le principal entier à rembourser et peut imposer une poche nantie alimentée régulièrement. Les versements dans cette poche constituent une sortie économique même s'ils ne figurent pas dans le DSCR contractuel ci-dessus. L’amortissable consomme davantage de cash-flow, mais réduit le ballon. Le cas D amortissable échoue au minimum Fruits de 1,20x dans le stress simplifié. Le bon choix dépend du coût **all-in**, du calendrier d’échéances et d’une source de remboursement indépendante d’un refinancement futur.
+
+### 6 bis.4 Spread de conservation du capital
+
+Pour 60 k€ conservés dans un portefeuille à 5 % grâce à 60 k€ de dette bancaire à 4 % :
+
+```text
+revenu illustratif du capital conservé = 60 k€ × 5 % = 3,0 k€/an
+intérêt bancaire = 60 k€ × 4 % = 2,4 k€/an
+spread avant coûts = 0,6 k€/an
+```
+
+Ce `5 % - 4 % = 1 %` n’est **pas** le spread net. La formule décisionnelle est :
+
+```text
+spread net après coûts =
+rendement du capital conservé après frais et impôt
+- intérêts bancaires
+- assurance
+- frais de dossier et de garantie annualisés
+- coût du nantissement et de la liquidité immobilisée
+- hedge éventuel
+- pertes attendues / marge de volatilité
+- coût de la poche de remboursement
+```
+
+Le principal final n’est pas une charge de résultat, mais il constitue une sortie de cash obligatoire. À 0 % de rendement portefeuille, conserver 60 k€ tout en les remplaçant par 60 k€ de dette coûte déjà 2,4 k€/an avant autres frais.
+
+### 6 bis.5 Coût d’opportunité des mêmes 60 k€
+
+| Option | Cash-flow incrémental | TRI / MOIC | Liquidité | Dette et downside | Capacité suivante |
+| --- | --- | --- | --- | --- | --- |
+| 1 — payer le bouquet | économie du coût bancaire ; économie immobilière du deal | exige tous les flux du deal | 60 k€ consommés | moins de dette ; capital immobilisé | baisse si aucune nouvelle monétisation |
+| 2 — rester en portefeuille, sans deal | rendement net du portefeuille | TRI/MOIC du seul portefeuille | haute si non nanti | risque de marché, pas la dette du nouveau deal | capital intact mais aucun nouvel actif contrôlé |
+| 3 — rester investi + emprunter | économie immobilière du deal + spread net de conservation | exige flux portefeuille **et** deal **et** dette | liquidité brute préservée, souvent grevée | dette, sûreté, taux, ballon et appels possibles | augmente seulement si crédit confirmé et ratios respectés |
+
+```text
+MOIC = (distributions + produit net de sortie) / equity réellement investie
+TRI = taux qui annule la VAN de tous les flux datés
+```
+
+Sans calendrier de sortie, frais, fiscalité, valeur terminale, travaux et cash-flows mensuels, aucun TRI ou MOIC comparatif sérieux ne peut être publié. L’option 3 ne domine l’option 1 que si son spread net ajusté du risque est positif **et** si la dette supplémentaire ne détruit pas la capacité de survie.
+
+### 6 bis.6 Bilan Fruits, capital libre et acquisition capacity
+
+```text
+capital libre réel =
+actifs liquides totaux
+- valeur de marché affectée au vendeur
+- valeur de marché affectée à la banque, hors chevauchement interdit
+- réserves obligatoires
+- fiscalité exigible
+- DSRA
+```
+
+Les poches doivent être juridiquement et comptablement identifiées. Un euro ne peut pas simultanément être : garantie vendeur, equity libre, DSRA, collatéral bancaire et capital Growth.
+
+```text
+borrowing base =
+Σ[valeur de marché_i × (1 - haircut_i)]
+- expositions garanties de rang supérieur
+
+capacité de crédit banque = minimum(
+  engagement approuvé,
+  capacité DSCR,
+  capacité LTV,
+  borrowing base disponible
+)
+
+Next Deal Capital =
+cash libre
++ equity externe confirmée
++ dette bancaire / privée confirmée pour le bouquet
+
+Acquisition Capacity =
+Next Deal Capital
++ crédit vendeur signé
+```
+
+Le collatéral n’est pas ajouté une seconde fois à `Next Deal Capital` : il soutient éventuellement la capacité de crédit, mais ne constitue pas lui-même un euro de cash supplémentaire. L’Acquisition Capacity mesure un pouvoir d’achat contractuel, pas la richesse nette.
+
+Un portefeuille important peut améliorer la présentation de Fruits, mais pas automatiquement sa dette disponible. La banque analysera sa volatilité, sa disponibilité, les haircuts, le rang des créanciers, les covenants, les échéances, les loyers, l’historique et la dette vendeur consolidée.
+
+### 6 bis.7 Nantissement partiel et haircuts
+
+Haircuts de **stress interne illustratifs**, à remplacer par la term sheet bancaire :
+
+| Actif | Haircut stress | Valeur de marché pour 60 k€ de borrowing base | Valeur de marché si couverture banque 120 % | Point de vigilance |
+| --- | ---: | ---: | ---: | --- |
+| Cash | 5 % | 63,2 k€ | 75,8 k€ | compensation, blocage, banque dépositaire |
+| Monétaire / BTF | 10 % | 66,7 k€ | 80,0 k€ | maturité, duration, éligibilité exacte |
+| OAT | 15 % | 70,6 k€ | 84,7 k€ | duration et baisse temporaire de valeur |
+| Corporate IG | 25 % | 80,0 k€ | 96,0 k€ | spread, rating, concentration, liquidité |
+| ETF World | 50 % | 120,0 k€ | 144,0 k€ | volatilité, appel de marge, Growth non garanti |
+
+Ces chiffres ne sont ni des LTV bancaires offertes ni des haircuts réglementaires directement applicables à Fruits. Le règlement prudentiel européen confirme la logique d’ajustement de volatilité ; le contrat bancaire fixe l’éligibilité et la marge réellement accordée.
+
+Si les 400 k€ garantissent déjà le vendeur du Deal 1 :
+
+```text
+couverture nominale = 400 / 400 = 100 %
+couverture cible 120 % = 480 k€ ajustés requis
+capital libre sans release ou collatéral distinct = 0 €
+```
+
+Avec un haircut interne de 10 %, la valeur ajustée des 400 k€ n’est que 360 k€, soit un déficit de 120 k€ contre une cible de 480 k€. Donner la même poche intégralement à la banque est impossible sans documenter premier rang, second rang, partage de sûreté, intercreditor, substitution ou portion non nantie.
+
+### 6 bis.8 Total Group Leverage et Net Debt / NAV
+
+```text
+Total Group Leverage =
+(dettes banques + dettes vendeurs + private debt + autres dettes)
+/ actifs bruts ajustés
+
+NAV = actifs bruts après valeurs prudentes - tous les passifs et provisions
+
+Net Debt / NAV =
+(dette totale - cash non grevé - titres liquides non grevés mobilisables)
+/ NAV
+
+Debt / Equity = dette totale / NAV ajustée
+```
+
+Les ratios doivent être calculés au deal, à la SPV, à la holding et au groupe consolidé. Si la NAV est nulle ou négative, `Net Debt / NAV` et `Debt / Equity` sont **non significatifs** : c’est un STOP, pas une division par zéro à contourner.
+
+### 6 bis.9 Simulation Deal 1 → Deal 5
+
+Hypothèses du modèle : point de départ post-vente avec portefeuille 400 k€ et dette vendeur 400 k€ ; Deals 2–5 à 500 k€ ; vendeur 420 k€ ; banque in fine 4 % ; vendeur 1,5 % ; portefeuille 5 % net avant fiscalité ; NOI 30 k€ par bien. Les frais, impôts, travaux, principal, distributions et création de valeur sont exclus. Les retraits supposent une release autorisée ; sans elle, le capital libre reste nul.
+
+| Stratégie | Deal | Portefeuille | Banque | Vendeurs | Immo détenu | NAV de closing | Cash-flow annuel | DSCR intérêts | Levier groupe |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| A — 80/0 | 1 | 400 | 0 | 400 | 0 | 0 | 14,0 | n.s. | 100 % |
+| A — 80/0 | 2 | 320 | 0 | 820 | 500 | 0 | 33,7 | 2,44x | 100 % |
+| A — 80/0 | 3 | 240 | 0 | 1 240 | 1 000 | 0 | 53,4 | 3,23x | 100 % |
+| A — 80/0 | 4 | 160 | 0 | 1 660 | 1 500 | 0 | 73,1 | 3,61x | 100 % |
+| A — 80/0 | 5 | 80 | 0 | 2 080 | 2 000 | 0 | 92,8 | 3,85x | 100 % |
+| B — 40/40 | 1 | 400 | 0 | 400 | 0 | 0 | 14,0 | n.s. | 100 % |
+| B — 40/40 | 2 | 360 | 40 | 820 | 500 | 0 | 34,1 | 2,16x | 100 % |
+| B — 40/40 | 3 | 320 | 80 | 1 240 | 1 000 | 0 | 54,2 | 2,75x | 100 % |
+| B — 40/40 | 4 | 280 | 120 | 1 660 | 1 500 | 0 | 74,3 | 3,03x | 100 % |
+| B — 40/40 | 5 | 240 | 160 | 2 080 | 2 000 | 0 | 94,4 | 3,19x | 100 % |
+| C — 20/60 | 1 | 400 | 0 | 400 | 0 | 0 | 14,0 | n.s. | 100 % |
+| C — 20/60 | 2 | 380 | 60 | 820 | 500 | 0 | 34,3 | 2,04x | 100 % |
+| C — 20/60 | 3 | 360 | 120 | 1 240 | 1 000 | 0 | 54,6 | 2,56x | 100 % |
+| C — 20/60 | 4 | 340 | 180 | 1 660 | 1 500 | 0 | 74,9 | 2,80x | 100 % |
+| C — 20/60 | 5 | 320 | 240 | 2 080 | 2 000 | 0 | 95,2 | 2,94x | 100 % |
+
+Lecture : au Deal 5, C conserve 240 k€ de portefeuille de plus que A mais porte aussi 240 k€ de dette bancaire supplémentaire. Le gain de cash-flow avant coûts n’est que 2,4 k€/an (`240 × (5 % - 4 %)`). La NAV de closing reste nulle dans les trois stratégies : financer le bouquet par dette préserve la valeur brute mais ne crée pas d’equity.
+
+Ce résultat contredit les garde-fous de stade 1 : chaque acquisition est financée à 84–99 % par dettes et le groupe reste à 100 % dette/actifs dans ce périmètre simplifié. Une baisse quelconque non compensée rend la NAV négative. A, B et C sont donc des **scénarios d’étude**, pas des structures CORE exécutables en l’état.
+
+Notebook exécutable et contrôles : [Capital Preservation Multi-Deals](modeles/01_Capital_Preservation_Multi_Deals.ipynb).
+
+### 6 bis.10 Stress et limite de croissance
+
+Résultats illustratifs au Deal 5 :
+
+| Stress | A | B | C | Lecture |
+| --- | ---: | ---: | ---: | --- |
+| rendement portefeuille 0 % — cash-flow annuel | 88,8 k€ | 82,4 k€ | 79,2 k€ | plus la stratégie préserve par dette, plus le cash-flow baisse |
+| valeur immobilière -10 % — NAV | -200 k€ | -200 k€ | -200 k€ | dette/actifs > 109 % |
+| valeur immobilière -20 % — NAV | -400 k€ | -400 k€ | -400 k€ | dette/actifs > 120 % |
+| portefeuille -20 % — NAV | -16 k€ | -48 k€ | -64 k€ | test extrême si tout le portefeuille était exposé |
+| portefeuille -50 % — NAV | -40 k€ | -120 k€ | -160 k€ | Growth ne peut garantir une échéance |
+
+Sur C au Deal 5, un choc banque de +100 / +200 / +400 bps abaisse le cash-flow annuel de 95,2 k€ à 92,8 / 90,4 / 85,6 k€. Un NOI -20 % le ramène à 71,2 k€ ; une vacance proxy de six mois à 35,2 k€ et de douze mois à -24,8 k€. Ces DSCR courants n’assurent toujours pas le remboursement des ballons.
+
+Autres stress obligatoires, à traduire en term sheets : refus in fine, banque limitée à 50 % du bouquet, banque refusée, OAT en moins-value temporaire, haircut augmenté, travaux +20 %, vendeur exigeant plus de bouquet, refus de second rang, refus de portabilité, couverture 120 %, refinancement impossible deux puis cinq ans.
+
+### 6 bis.11 Solvabilité, remboursement et STOP
+
+Chaque nouvelle dette doit avoir au moins une source de remboursement identifiable :
+
+- cash-flow locatif après stress ;
+- amortissement contractuel ;
+- échéance obligataire/STRIP ou poche ballon réservée ;
+- portefeuille **non doublement compté** et juridiquement disponible ;
+- vente raisonnablement exécutable sous valeur prudente ;
+- cash groupe non grevé.
+
+Un refinancement peut être une option, jamais l’unique moyen d’éviter le défaut. STOP acquisition si :
+
+- DSCR consolidé normal ≤ 1,30x ou stress < 1,20x ;
+- NAV nulle/négative ou dette/NAV non significative ;
+- Fortress, DSRA, fiscalité ou CAPEX non financés ;
+- couverture vendeur insuffisante après haircuts ;
+- même collatéral compté auprès de deux créanciers sans rang/intercreditor signé ;
+- maturités concentrées ou poche ballon insuffisante ;
+- financement futur obligatoire pour survivre ;
+- rendement marginal net du deal inférieur au risque marginal de la dette.
+
+### 6 bis.12 Machine Fruits reformulée
+
+```mermaid
+flowchart TD
+    A[Equity initiale] --> B[Crédit vendeur]
+    B --> C[Actif immobilier]
+    C --> D[Loyers + création de valeur]
+    D --> E[Vente / refinancement / monétisation réelle]
+    E --> F[Portefeuille financier]
+    F --> G[Conservation du capital]
+    G --> H[Nantissement ou force de bilan]
+    G --> I[Petite equity Fruits libre]
+    H --> J[Banque / in fine / private debt]
+    I --> K[Nouveau crédit vendeur]
+    J --> K
+    K --> L[Nouvel actif]
+    L --> D
+```
+
+La flèche `F -> H` n’existe que si le portefeuille est disponible après les sûretés du Deal 1. La flèche `E -> F` suppose un vrai encaissement ; elle n’existe pas du seul fait du crédit vendeur.
+
+### 6 bis.13 Statut de la stratégie
+
+| Couche | Éléments |
+| --- | --- |
+| **CORE — contrôle** | sources & uses séparant equity/dettes ; non-double comptage ; ratios consolidés ; réserves ; source de remboursement ; simulation sans refinancement obligatoire |
+| **EXPERIMENTAL — montage** | dette vendeur maintenue après vente ; banque sur bouquet non validée par SG ; in fine au stade 1 ; cas B/C/D ; second rang ou partage de portefeuille ; substitution/portabilité |
+| **LATER-STAGE** | facility corporate, borrowing base multi-actifs, private debt récurrente, intercreditor complexe, OBO de plateforme, collatéral cross-deal après track record |
+
+Aucune stratégie A/B/C/D n’est automatiquement recommandée. Le passage en CORE d’un montage exige des offres signées, une vraie marge d’equity, des réserves et des tests consolidés satisfaisants.
+
+### 6 bis.14 Version plus robuste à négocier
+
+La question n’est pas « combien de dette maximale obtenir ? », mais « quelle dette reste remboursable après choc sans bloquer les opérations existantes ? ». Une version plus robuste doit au minimum :
+
+1. isoler le portefeuille garantissant le vendeur du Deal 1 et quantifier toute release disponible ;
+2. financer l'equity Fruits du Deal 2 avec du cash réellement non grevé ou de nouveaux capitaux, jamais avec la même poche comptée deux fois ;
+3. réduire le crédit vendeur, la banque ou le prix tant que la NAV consolidée reste nulle sous les valeurs prudentes ;
+4. préférer une tranche bancaire amortissable ou hybride lorsque le stress de cash-flow le permet ;
+5. réserver contractuellement chaque ballon et échelonner les maturités ;
+6. interdire les garanties croisées entre SPV sauf décision explicite, intercreditor et bénéfice démontré ;
+7. n'autoriser le deal suivant qu'après reconstitution des réserves et passage du stress sans refinancement.
+
+```text
+dette totale maximale robuste =
+actifs après stress
+- NAV minimale positive décidée
+- passifs non financiers / provisions
+```
+
+La NAV minimale, le niveau de seller financing et la part amortissable restent à valider sur un actif réel avec banque, vendeur et conseils ; cette note ne les fixe pas.
 
 ## 7. Trois stratégies après acquisition
 
@@ -464,9 +775,11 @@ Une assurance-vie luxembourgeoise est **NO-GO sur un petit deal par défaut**. E
 
 La documentation du Commissariat aux Assurances doit être consultée pour le contrat et l'assureur exacts. Aucune source officielle consultée ne valide un rendement, un LTV de nantissement ou un avantage net universel.
 
-## 9. Protection, Growth et liability matching
+## 9. Fortress, Protection+, Growth et liability matching
 
-### Protection
+Les produits admissibles, rendements datés, enveloppes, limites et règles FX sont définis dans l'[univers canonique Fruits](../01_Strategie/07_Univers_Investissement_Fruits.md). Les rendements de cette section restent des hypothèses de stress historiques et non des cotations actuelles.
+
+### Fortress et Protection+
 
 Objectif :
 
@@ -475,7 +788,7 @@ faire correspondre les échéances vendeur
 avec des actifs de même horizon et devise
 ```
 
-Supports à analyser : cash, BTF/monétaire, OAT, STRIPS, obligations souveraines ou investment grade. Le rendement de 3–4 % brut est une hypothèse, pas une promesse.
+Supports à analyser : Fortress d'abord pour les flux certains ; Protection+ seulement dans les limites compatibles avec la dette. Le rendement de 3–4 % brut utilisé dans les stress est une hypothèse, pas une promesse.
 
 - Une **OAT** est une obligation de l’État français à moyen ou long terme.
 - Un **STRIP** sépare les coupons et le principal d’une OAT en titres zéro-coupon.
@@ -486,10 +799,11 @@ Supports à analyser : cash, BTF/monétaire, OAT, STRIPS, obligations souveraine
 Supports possibles sur capital libre :
 
 - ETF Monde ;
-- obligations corporate diversifiées ;
 - nouveaux deals Fruits ;
 - travaux créateurs de valeur ;
 - situations spéciales.
+
+Les obligations corporate investment grade appartiennent à **Protection+**, pas à Growth.
 
 Hypothèses de travail : 6–8 % pour les actions long terme ; 10 % et plus seulement pour des actifs opérationnels plus risqués. Aucun rendement n’est garanti.
 
@@ -512,6 +826,8 @@ Mais avec des haircuts internes purement illustratifs de 5 % sur Protection et 4
 | 45 / 55 | 303 000 € | 75,8 % |
 
 Conclusion : ces allocations peuvent servir de **stress de rendement**, mais ne constituent pas une sûreté suffisante à elles seules. Growth doit porter sur le surplus au-dessus du plancher de Protection, pas sur l’argent nécessaire au vendeur.
+
+Elles ne remplacent pas les modèles prudent/équilibré/mature de l'univers canonique et ne modifient pas une allocation existante sans décision explicite.
 
 Capital brut nécessaire sous ces mêmes haircuts :
 
@@ -894,7 +1210,7 @@ Position Fruits :
 
 ## 14. Faits vérifiés, hypothèses et validations
 
-### Faits vérifiés au 18 août 2026
+### Faits vérifiés au 20 août 2026
 
 | Sujet | Fait | Portée |
 | --- | --- | --- |
@@ -908,13 +1224,15 @@ Position Fruits :
 | Marchand de biens | habitude et intention de revendre à l’achat sont centrales | BOFiP BOI-BIC-CHAMP-20-10-10 |
 | Acompte sur dividende | conditions de bénéfice et bilan intermédiaire certifié | Code de commerce, art. L. 232-12 |
 | Vente occupée | le bien peut être vendu ; le bail continue avec l’acquéreur | Service-Public |
+| Octroi et suivi bancaire | les orientations EBA demandent des standards robustes d’octroi, d’évaluation de solvabilité, de valorisation du collatéral et de suivi | EBA, Guidelines on loan origination and monitoring |
+| Collatéral financier | le cadre prudentiel ajuste la valeur du collatéral pour sa volatilité ; la term sheet Fruits reste contractuelle | règlement UE 575/2013, art. 223–227 |
 
 ### Hypothèses à tester
 
 - vendeur acceptant 1–2 % et 5–15 ans ;
 - dette vendeur de 80 % ;
 - banque acceptant le rang et une dette du bouquet ;
-- portabilité après revente ;
+- portabilité après revente, non validée lors de l'échange SG du 20 août 2026 ;
 - substitution hypothèque vers compte-titres ;
 - droit de retirer coupons/dividendes ;
 - haircuts de 5 % / 40 % et couverture interne 120 % ;
@@ -923,6 +1241,10 @@ Position Fruits :
 - assurance ou garantie bancaire économique ;
 - avantage fiscal vendeur ;
 - assurance-vie Luxembourg utile net de frais.
+- banque à 4 % sur dix ans dans le modèle capital preservation ; simple hypothèse pédagogique, pas quote de marché ;
+- haircuts internes cash 5 %, monétaire/BTF 10 %, OAT 15 %, corporate IG 25 %, ETF World 50 % ; à remplacer par la politique du prêteur ;
+- capacité réelle à financer 40–75 k€ de bouquet et equity minimale exigée ; la conseillère SG a compris le besoin sans confirmer une offre ou un produit ;
+- release, second rang ou intercreditor sur un portefeuille déjà nanti.
 
 ### Validations deal par deal
 
@@ -958,6 +1280,8 @@ Position Fruits :
 - couverture vendeur sous seuil après haircuts ;
 - rémunération prise sur bouquet, collatéral ou DSRA ;
 - maturités agrégées non couvertes sous 24 mois.
+- NAV consolidée nulle/négative ou stress -20 % qui efface l'equity ;
+- portefeuille déjà nanti compté comme equity libre ou comme second collatéral sans accord signé.
 
 ## 16. Conclusion stratégique
 
@@ -976,6 +1300,8 @@ Position Fruits :
 13. L’assurance-vie Luxembourg n’est utile que si son avantage patrimonial net justifie ses frais et sa complexité.
 14. Le refinancement simple est préférable à l’OBO sur un petit actif.
 15. Fruits perd de l’argent si le bien est revendu sans assez de création de valeur, si le capital reste dormant, si Growth chute avant le ballon, ou si les frais/fiscalité absorbent le spread.
+16. Une dette de bouquet conserve de la liquidité brute, mais ne crée aucune NAV au closing ; sa valeur vient seulement d'un spread net et d'un deal résilient.
+17. Dans l'exemple 400 k€ de portefeuille / 400 k€ de dette vendeur, le capital libre est potentiellement nul tant que les sûretés, haircuts et releases ne sont pas documentés.
 
 ### Résumé en une phrase
 
@@ -988,7 +1314,7 @@ tout en protégeant le vendeur sans refinancement miraculeux.
 
 ## Sources officielles
 
-Consultées le 18 août 2026 :
+Consultées du 18 au 20 août 2026 :
 
 - [Code civil, article 2402 — hypothèque légale spéciale du vendeur](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006181849/)
 - [Code civil, article 1654 — résolution pour défaut de paiement](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006442097/)
@@ -1006,5 +1332,7 @@ Consultées le 18 août 2026 :
 - [Agence France Trésor — OAT démembrées / STRIPS](https://www.aft.gouv.fr/fr/oat-demembrees-strips)
 - [Banque de France — taux d’usure](https://www.banque-france.fr/fr/a-votre-service/particuliers/connaitre-pratiques-bancaires-assurance/credit/taux-usure)
 - [Commissariat aux Assurances Luxembourg — documentation assurance-vie](https://www.caa.lu/fr/documentation/circulaires/assurances-vie)
+- [EBA — Guidelines on loan origination and monitoring](https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/credit-risk/guidelines-loan-origination-and-monitoring)
+- [Règlement (UE) n° 575/2013 — collatéral financier et ajustements de volatilité, articles 223 à 227](https://eur-lex.europa.eu/eli/reg/2013/575/oj)
 
 Cette liste établit un cadre de recherche. Elle ne remplace pas un avis professionnel ni la lecture des textes et contrats applicables à l’opération exacte.

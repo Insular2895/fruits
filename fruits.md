@@ -11,6 +11,7 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Stratégie currency](01_Strategie/04_Strategie_Currency.md)
 - [Stratégies empilables ou non](01_Strategie/05_Strategies_Empilables.md)
 - [Branche d'investissement solaire - draft différé](01_Strategie/06_Branche_Investissement_Solaire.md)
+- [Univers d’investissement et allocation de capital Fruits](01_Strategie/07_Univers_Investissement_Fruits.md)
 
 ## Investisseurs
 - [Capital stack / financeurs](02_Investisseurs/00_Capital_Stack.md)
@@ -55,6 +56,8 @@ Index propre du projet Fruits. Les notes ont été séparées par domaine pour �
 - [Crédit in fine immobilier](04_Operationnel/11_Credit_In_Fine_Fruits.md)
 - [Rémunération Fruits / waterfall / promote](04_Operationnel/11_Remuneration_Fruits_Waterfall.md)
 - [Vente à terme / crédit vendeur — système Fruits](04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md)
+- [Modèle capital preservation — Deal 1 à Deal 5](04_Operationnel/modeles/01_Capital_Preservation_Multi_Deals.ipynb)
+- [Checklist investissement pré-décision](04_Operationnel/checklists/investissement-pre-decision.md)
 - [Procurement Chine / ameublement Fruits](04_Operationnel/13_Procurement_Chine_Ameublement_Fruits.md)
 
 ## Prospection

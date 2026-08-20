@@ -2,14 +2,16 @@
 
 ## Objectif
 
-- Protéger le capital liquide du groupe.
-- Garder un collatéral bancaire lisible.
+- Faire croître sur longue durée le capital réellement libre du groupe.
+- Conserver un portefeuille Growth simple, diversifié et lisible.
 - Éviter le margin call.
 - Ne pas mélanger portefeuille financier risqué et SPV immobilières financées.
 
+> L'ETF fait partie exclusivement de la poche **Growth**. Pour l'allocation globale, les produits Fortress/Protection+ et les règles de passif, voir [Univers d’investissement et allocation de capital Fruits](07_Univers_Investissement_Fruits.md).
+
 ## Principe de séparation
 
-Le portefeuille ETF appartient à la stratégie de trésorerie/holding, pas aux SPV immobilières financées par des tiers.
+Le portefeuille ETF appartient à la poche Growth de la holding, pas à la trésorerie de sécurité ni aux SPV immobilières financées par des tiers.
 
 Dans les SPV investisseurs, les réserves doivent rester simples :
 
@@ -45,13 +47,15 @@ Règle :
 
 > Les ETF servent à capitaliser le surplus libre de Fruits, pas à placer du cash opérationnel ou des réserves investisseurs.
 
-## Allocation cible holding
+## Allocation interne de la poche Growth liquide
 
-Allocation prudente :
+Ces pourcentages décrivent uniquement la sous-poche financière Growth, pas l'allocation consolidée de la holding. Les modèles globaux prudent/équilibré/mature sont définis dans le document canonique.
+
+Scénario prudent à tester dans cette sous-poche :
 
 - 60-80% ETF actions larges diversifiés ;
 - 20-40% cash / monétaire / T-Bills selon niveau de dette et marché ;
-- lombard interne limité à 20-30% du portefeuille actions diversifié.
+- lombard interne ciblé à 20-25%, avec maximum de 30% du portefeuille actions diversifié.
 
 Allocation plus agressive :
 
@@ -153,4 +157,4 @@ Une rémunération variable sur performance ETF doit être traitée avec prudenc
 
 ## Conclusion
 
-La stratégie ETF est un outil de liquidité et de stabilité groupe. Le moteur principal de Fruits doit rester l'immobilier, les loyers, les fees justifiés et les sorties structurées.
+La stratégie ETF est un moteur de croissance liquide et diversifié du surplus libre, pas un outil de sécurité d'une dette. La liquidité de cotation n'empêche ni drawdown ni vente au mauvais moment. Le moteur d'alpha principal de Fruits doit rester son avantage opérationnel immobilier, avec loyers, création de valeur, fees justifiés et sorties structurées.
