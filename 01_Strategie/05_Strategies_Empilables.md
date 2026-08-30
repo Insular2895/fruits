@@ -13,14 +13,19 @@ Définir quelles stratégies peuvent coexister dans Fruits sans créer une struc
 | Usufruit / NP | Exception | Oui | Oui | Outil specifique pour FO patrimoniaux, actif stable et fiscalite validee |
 | Actions de préférence | Oui | Oui | Oui | Bon complément d'equity, pas une dette garantie |
 | Private debt bridge | Oui | Oui | Opportuniste | Pour vitesse / track record, pas long terme |
+| Crédit vendeur Balloon / Step | Opportuniste | Oui | Oui | Paiement différé, coût complet et ballon à sécuriser |
+| Crédit vendeur Zero | Experimental | Experimental | Oui sous matching | Mur de remboursement intégral |
 | Refinancement | Oui | Oui | Oui | Sortie / optimisation après stabilisation, pas hypothèse magique |
 | Lombard | Très limité | Limité | Oui | Holding uniquement, LTV basse |
 | ETF/collar | Holding seulement | Holding | Holding | Jamais réserve risquée dans SPV financée |
+| Fortress / Protection+ | Oui | Oui | Oui | Matching des passifs et limites selon l'[univers canonique](07_Univers_Investissement_Fruits.md) |
 | FX / dette devise | Non | Rare | Oui | Seulement si besoin économique réel |
 | BPI / subventions | Opportuniste | Oui | Oui | Si activité éligible, pas immo pur passif |
 | Financement vert | Si travaux réels | Oui | Oui | Mesure et preuves obligatoires |
 | BTP / acquisitions sociétés | Non | Rare | Oui | Après cash-flow, équipe, audit |
 | Santé / cliniques | Non | Test | Oui | Besoin exploitation dédiée |
+
+La taxonomie des placements, les rendements indicatifs, les enveloppes et les limites de concentration ne sont pas recopiés ici : voir [Univers d’investissement et allocation de capital Fruits](07_Univers_Investissement_Fruits.md).
 
 ## Combinaisons recommandées
 
@@ -248,6 +253,26 @@ Règle Fruits :
  pas promesse de remboursement
 ```
 
+### Capital preservation pour le deal suivant
+
+```text
+portefeuille réellement libre
++ petite equity Fruits
++ dette bancaire confirmée
++ nouveau crédit vendeur
+-> nouvel actif
+```
+
+Cette combinaison peut conserver davantage de liquidité brute, mais elle n'est empilable que si :
+
+- le portefeuille n'est pas déjà intégralement nanti au vendeur précédent ;
+- les rangs, releases ou collatéraux distincts sont signés ;
+- toutes les dettes entrent dans le levier groupe et le DSCR consolidé ;
+- le spread est net des frais, garanties, fiscalité et risque ;
+- chaque ballon a une source de remboursement autre qu'un refinancement supposé.
+
+Les cas 40/40 et 20/60 sur un bouquet de 80 k€ restent expérimentaux au stade 1 ; le quasi-zéro equity est exclu du base case. Voir [Capital preservation + acquisition leverage](../04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md#6-bis-capital-preservation--acquisition-leverage).
+
 ## Combinaisons dangereuses
 
 ### Trop de levier sur un premier actif
@@ -271,6 +296,19 @@ dette 18 mois
 
 Risque : refinancement forcé.
 
+### Ballons vendeur concentrés
+
+```text
+plusieurs dettes vendeur
++ mêmes années d'échéance
++ Protection insuffisante
++ refinancement supposé
+```
+
+Risque : mur de maturité groupe malgré des actifs rentables.
+
+Voir : [Vente à terme / crédit vendeur — système Fruits](../04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+
 ### Mismatch de liquidité
 
 ```text
@@ -280,6 +318,8 @@ ETF volatile
 ```
 
 Risque : margin call au pire moment.
+
+La séparation entre somme nécessaire au passif et surplus Growth est définie dans [Univers d’investissement et allocation de capital Fruits](07_Univers_Investissement_Fruits.md).
 
 ### Mismatch de devise
 

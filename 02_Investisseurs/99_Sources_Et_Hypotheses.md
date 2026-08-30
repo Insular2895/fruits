@@ -159,9 +159,24 @@ Sources :
 
 - Le crédit vendeur est un financement accordé par le cédant à l'acquéreur sur une partie du prix.
 - En immobilier, sa rédaction doit être cadrée par notaire et, si une dette bancaire existe, par un accord de rang/intercreditor.
+- La créance du prix de vente d'un immeuble bénéficie d'une hypothèque légale spéciale.
+- L'hypothèque suit en principe le bien revendu ; une mainlevée, une purge ou une substitution de sûreté doit donc être organisée.
+- Les modalités de paiement ne décalent pas automatiquement la plus-value immobilière du particulier : le prix stipulé dans l'acte reste la base, intérêts exclus.
+- Les intérêts d'une créance relèvent d'un traitement fiscal distinct.
+- Une activité répétée d'achat-revente doit être testée au regard du caractère habituel et de l'intention de revendre.
 
 Sources :
-- Bpifrance Création, crédit vendeur : https://bpifrance-creation.fr/encyclopedie/financements/lemprunt/recourir-au-credit-vendeur-reprendre-entreprise
+- Code civil, article 2402 : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006181849/
+- Code civil, article 1654 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006442097/
+- Code civil, articles 2454 et suivants : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000044062139/
+- Code monétaire et financier, article L. 211-20 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036175272/
+- Code des assurances, article L. 132-10 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000017841460/
+- CGI, articles 124 et 125 : https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006197211
+- BOFiP, prix de cession immobilière payable à terme : https://bofip.impots.gouv.fr/bofip/263-PGP.html/identifiant=BOI-RFPI-PVI-20-10-10-20160302
+- BOFiP, qualification marchand de biens : https://bofip.impots.gouv.fr/bofip/4712-PGP.html/identifiant=BOI-BIC-CHAMP-20-10-10-20170104
+- Agence France Trésor, OAT démembrées / STRIPS : https://www.aft.gouv.fr/fr/oat-demembrees-strips
+
+Cadre complet : [Vente à terme / crédit vendeur — système Fruits](../04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md), sources vérifiées le 18 août 2026.
 
 ### Crédit-bail immobilier / cession-bail
 

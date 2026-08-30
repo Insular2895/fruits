@@ -23,7 +23,7 @@ Objectif : avoir un pack clair par type de financeur, avec la structure produit 
 | 13 | [Crowdfunding / PSFP](13_Pack_Crowdfunding_PSFP.md) | 12-60 mois / 100k-5M | Stade 1-2 opportuniste | Pack complet |
 | 14 | [Banque des Territoires / CDC](14_Pack_Banque_Des_Territoires_CDC.md) | 7-20 ans / 1-50M | Stade 2-3 | Pack complet |
 | 15 | [SCPI / OPCI / SIIC / pierre-papier](15_Pack_SCPI_OPCI_SIIC_Pierre_Papier.md) | 5-15 ans / 2-50M+ | Stade 2-3 | Pack complet |
-| 16 | [Crédit vendeur](16_Pack_Credit_Vendeur.md) | 12-60 mois / 5-30% du prix | Stade 1 opportuniste | Pack complet |
+| 16 | [Crédit vendeur](16_Pack_Credit_Vendeur.md) | 1-15 ans / 5-80% à stresser | Pilote opportuniste | Système conditionnel |
 | 17 | [Crédit-bail immobilier / leaseback](17_Pack_Credit_Bail_Immobilier_Leaseback.md) | 8-15 ans / 500k-20M+ | Stade 2 | Pack complet |
 
 ## Lecture par stade

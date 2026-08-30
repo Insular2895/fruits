@@ -323,6 +323,8 @@ Message :
 
 ## Crédit vendeur
 
+Source produit et scoring : [Vente à terme / crédit vendeur — système Fruits](../04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+
 Canaux :
 
 - vendeur direct ;
@@ -330,14 +332,35 @@ Canaux :
 - agent immobilier ;
 - avocat du vendeur ;
 - broker immobilier.
+- annonces depuis plus de 90 / 180 jours ;
+- administrateurs de biens ;
+- successions et indivisions, seulement avec pouvoirs clairs ;
+- propriétaires sans dette ou dont la dette peut être soldée par le bouquet ;
+- investisseurs sortant d'un actif et recherchant un revenu.
 
 Message :
 
 - prix mieux défendu grâce au paiement différé ;
 - calendrier clair ;
 - sûreté cadrée ;
-- sortie courte ;
-- vendeur payé prioritairement selon waterfall après banque senior.
+- bouquet adapté au besoin de cash ;
+- choix entre Balloon, Step et Zero ;
+- sortie indépendante d'un refinancement promis ;
+- vendeur payé selon le rang contractuel ; après la banque uniquement si sa créance est subordonnée.
+
+Trois angles :
+
+- **Sécurité** : bouquet plus élevé, Balloon et garantie forte ;
+- **Revenu** : bouquet moyen, mensualités régulières ;
+- **Prix / patrimoine** : prix nominal éventuellement supérieur contre différé plus long.
+
+Qualification :
+
+- score A, 75-100 : proposition Balloon / Step ; Zero seulement avec protection renforcée ;
+- score B, 60-74 : retravailler bouquet, durée et sûreté ;
+- score C, moins de 60 : offre cash, financeur tiers ou abandon.
+
+Ne jamais cibler un vendeur parce qu'il paraît vulnérable. Vérifier compréhension, conseil indépendant, besoin de liquidité, dette restante, horizon, succession, fiscalité et tolérance réelle au risque débiteur. Toute collecte et prospection doit respecter le RGPD et les règles de démarchage applicables.
 
 ## Crédit-bail immobilier
 

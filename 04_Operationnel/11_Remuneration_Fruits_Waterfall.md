@@ -348,6 +348,44 @@ Possible alternative :
 
 - complément de prix / earn-out si le vendeur veut participer à une hausse future.
 
+Waterfall spécifique pendant détention :
+
+```text
+NOI
+-> dette bancaire senior éventuelle
+-> dette vendeur
+-> fiscalité
+-> DSRA
+-> réserve capex / vacance
+-> poche de remboursement du ballon
+-> fees Fruits OpCo réels, plafonnés et autorisés
+-> réinvestissement
+-> distribution résiduelle
+```
+
+Après une revente où le vendeur accepte de rester créancier :
+
+```text
+revenus du portefeuille
+-> coût vendeur
+-> frais et fiscalité
+-> appels de marge / couverture vendeur
+-> reconstitution Protection
+-> réinvestissement
+-> fee OpCo autorisé
+-> distribution éventuelle
+```
+
+Règles :
+
+- le portefeuille nanti n'est pas du cash distribuable ;
+- le capital vendeur, la DSRA et les réserves ne financent jamais le salaire ;
+- le carry brut d'un portefeuille n'est distribuable qu'après coûts, pertes, impôt et couverture ;
+- une fee intercompany déplace le résultat vers l'OpCo mais ne crée pas un profit consolidé ;
+- un dividende n'est pas une paie mensuelle.
+
+Voir les politiques Growth First / équilibrée / confort et leur coût de capitalisation dans [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+
 ### Crédit-bail immobilier
 
 Pas de split d'upside classique.

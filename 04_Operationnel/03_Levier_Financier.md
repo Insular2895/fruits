@@ -16,8 +16,11 @@ Identifier les leviers qui peuvent améliorer le rendement ou réduire le coût 
 - Placement monétaire très court terme des provisions de charges, uniquement comme optimisation de trésorerie.
 - Subventions ou prêts bonifiés quand le projet est réellement éligible.
 
+L'univers admissible, la distinction Fortress/Protection+/Growth et le calcul du rendement net sont centralisés dans [Univers d’investissement et allocation de capital Fruits](../01_Strategie/07_Univers_Investissement_Fruits.md).
+
 ### Leviers utiles mais à cadrer
 
+- Crédit vendeur / vente à terme : Balloon ou Step sous conditions ; Zero expérimental.
 - Crédit lombard : uniquement holding, LTV basse, jamais pour financer pertes opérationnelles.
 - Financement vert / ESG : seulement si travaux mesurables et justificatifs.
 - Quotas carbone / certificats : à traiter comme bonus potentiel, jamais comme base du business plan.
@@ -83,6 +86,38 @@ Une stratégie est viable seulement si elle passe ces tests :
 - Sortie possible sans vendre au pire moment.
 - Le rendement investisseur est payable sans vider les réserves.
 
+Chaque principal doit en outre avoir une source de remboursement identifiable — cash-flow, amortissement, poche réservée, vente prudente ou cash non grevé. Un refinancement futur non engagé ne peut jamais être l’unique moyen d’éviter le défaut.
+
+Une hypothèque, un nantissement ou une caution conforte le dossier du prêteur ; aucune garantie ne remplace la capacité de remboursement démontrée par les revenus, les réserves et les scénarios de stress.
+
+## Capital preservation et levier consolidé
+
+Financer une partie d’un bouquet par banque, in fine ou dette privée peut conserver la liquidité brute, mais ne crée pas d’equity au closing : chaque euro préservé est compensé par un euro de passif supplémentaire.
+
+Pour l'in fine décrit lors de l'échange SG du 20 août 2026, l'absence d'amortissement immobilier n'implique pas un capital entièrement libre : une poche financière initiale puis des versements périodiques peuvent être exigés, avec nantissement et ratio de couverture. Ces flux et actifs immobilisés doivent être inclus dans l'analyse économique.
+
+```text
+Total Group Leverage =
+(banques + vendeurs + private debt + autres dettes)
+/ actifs bruts ajustés
+
+Net Debt / NAV =
+(dette totale - cash non grevé - titres liquides non grevés mobilisables)
+/ NAV
+```
+
+Le seuil 55–65 % reste la cible de **dette senior** au stade 1 ; il ne remplace pas la mesure de toutes les dettes. Les cas Deal 2 à 420 k€ vendeur plus 0–75 k€ banque affichent 84–99 % de dette totale avant frais. Ils sont high-leverage même si la tranche bancaire seule paraît faible.
+
+Règles :
+
+- calculer deal, SPV, holding et groupe consolidé ;
+- séparer equity Fruits, dette banque et dette vendeur dans les sources & uses ;
+- ne jamais ajouter le collatéral à la fois au capital libre et à la capacité de crédit ;
+- traiter `NAV ≤ 0` ou un stress -20 % qui efface l’equity comme STOP ;
+- exiger release, substitution, collatéral distinct ou intercreditor avant de réutiliser un portefeuille déjà nanti.
+
+Cadre complet et simulation : [Capital preservation + acquisition leverage](12_Vente_A_Terme_Credit_Vendeur_Fruits.md#6-bis-capital-preservation--acquisition-leverage).
+
 ## Sources de levier à travailler
 
 ### Provisions de charges
@@ -147,6 +182,34 @@ Conditions minimales :
 - réserves reconstituées avant distribution.
 
 Voir : [Refinancement](10_Refinancement.md).
+
+### Crédit vendeur / vente à terme
+
+Le crédit vendeur diffère le paiement du prix ; il ne remet pas du cash à Fruits.
+
+Usages :
+
+- remplacer une partie de l'equity ou de la dette bancaire ;
+- adapter bouquet, durée et paiement au besoin réel du vendeur ;
+- financer un actif qui reste viable en exploitation ou à la vente ;
+- conserver une option de refinancement, sans en dépendre.
+
+Règles de prudence :
+
+- distinguer LTV bancaire, LTV vendeur et LTV totale ;
+- inclure bouquet, frais, travaux et réserves dans les sources et emplois ;
+- calculer le coût complet, y compris surprix, sûretés et bonus ;
+- ne pas empiler une dette bancaire sur le bouquet sans accord de rang et stress DSCR ;
+- traiter le financement bancaire du bouquet comme une hypothèse à tester : l'échange SG du 20 août 2026 n'a apporté aucune validation formelle du produit, du montant ou du rang ;
+- ne jamais compter le solde vendeur comme cash ;
+- maintenir DSRA, fiscalité et CAPEX hors du portefeuille Growth ;
+- considérer toute portabilité après revente comme expérimentale.
+
+La dette ne peut rester après la revente que si le vendeur l'accepte et si l'hypothèque est maintenue, purgée ou remplacée par une sûreté documentée. Le compte-titres nanti ne rend pas automatiquement ses arbitrages, coupons ou dividendes disponibles.
+
+La portabilité avancée n'a pas été validée par la conseillère SG et reste à confirmer avec notaire, avocat, fiscaliste, vendeur et prêteurs. Selon le contrat, un prêt amortissable évolutif peut offrir modulation ou pause tandis que les intérêts continuent ; l'in fine décrit lors du rendez-vous n'offrait pas la même modularité. Ce constat ne doit pas être généralisé à tous les produits bancaires.
+
+Voir : [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md) et [Univers d’investissement et allocation de capital Fruits](../01_Strategie/07_Univers_Investissement_Fruits.md).
 
 ## Phrase de décision
 

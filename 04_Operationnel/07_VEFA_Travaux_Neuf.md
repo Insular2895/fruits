@@ -1,6 +1,15 @@
 # VEFA Et Travaux Dans Le Neuf
 
-Règle achats En traveaux dans le neuf :
+Règle achats et travaux dans le neuf :
+
+## Nouvelles informations VEFA — retour bancaire du 20 août 2026
+
+- **Information confirmée par la conseillère SG :** les appels sont progressifs et les intérêts intercalaires portent sur les sommes déjà débloquées.
+- **Information confirmée par la conseillère SG :** le montage décrit permettait soit de payer intérêts intercalaires et assurance pendant le chantier, soit de différer/capitaliser les intérêts ; dans cette seconde option, l'assurance restait au moins payée.
+- **Règle générale à vérifier :** fréquence de capitalisation, durée du différé, assurance et date exacte de début d'amortissement dépendent de l'offre de prêt.
+- **Hypothèse Fruits :** la simulation ci-dessous retient 250 k€, 3,40 %, dix-huit mois d'appels simplifiés et vingt ans d'amortissement post-livraison. Elle ne représente pas une offre SG.
+
+Le différé protège la trésorerie pendant la construction mais augmente le coût total du financement.
 
 # 1) Comment ça se passe concrètement (VEFA)
 1. **Réservation**
@@ -19,8 +28,10 @@ Le plus courant en VEFA :
 Ensuite, **à la livraison / déblocage total**, tu passes au **crédit “normal”** :
 * mensualité = **capital + intérêts classiques + assurance**.
 ## Différé (ce que tu voulais faire)
-* **Différé partiel (le plus logique)** : pendant les travaux tu paies **intérêts intercalaires + assurance**, pas le capital.
-* **Différé total** : parfois tu paies très peu au début, mais le coût final peut augmenter (mécaniques de report/capitalisation selon contrat).
+* **Option A — intérêts payés pendant le chantier** : tu paies **intérêts intercalaires + assurance** au fil des déblocages, sans amortir le capital. L'amortissement commence après la livraison selon le contrat.
+* **Option B — intérêts reportés/capitalisés** : les intérêts non payés sont ajoutés au capital selon les modalités du contrat ; dans le montage décrit par la conseillère SG, l'assurance restait au moins payée. Le solde à amortir après livraison devient le capital initial débloqué augmenté des intérêts capitalisés.
+
+Le différé préserve de la liquidité avant livraison, mais augmente le coût total et peut produire des intérêts sur les intérêts capitalisés. Durée, fréquence de capitalisation, assurance et bascule en amortissement sont à confirmer dans l'offre.
 # 3) À la livraison : est-ce que tu “rattrapes tout” ?
 En **différé partiel**, en général **non** :
 * tu as déjà payé les intérêts intercalaires au fil de l’eau ;
@@ -40,8 +51,19 @@ Intérêts intercalaires (hors assurance) :
 * mois 12 → 18 : 237 500 × 3,40 % × 6/12 = **4 037,50 €**
 Total ≈ **8 500 €** d’intérêts intercalaires sur 18 mois (hors assurance).
 Point important : ce coût n’apparaît pas toujours comme “+0,5 % de taux”. Ce n’est souvent **pas une majoration de taux**, c’est un **surcoût en euros** lié au déblocage progressif.
+
+## 4 bis) Comparaison payée au fil de l'eau / capitalisée
+
+Simulation pédagogique avec le même calendrier, puis amortissement sur **20 ans à 3,40 %** après livraison. La durée post-livraison est une hypothèse Fruits, pas une offre bancaire.
+
+| Scénario | Cash d'intérêts payé avant livraison | Solde au démarrage de l'amortissement | Mensualité post-livraison hors assurance | Coût total du financement hors assurance |
+| --- | ---: | ---: | ---: | ---: |
+| A — intérêts intercalaires payés | 8 500 € | 250 000 € | 1 437 € | 103 401 € |
+| B — 8 500 € capitalisés, simplifié | 0 € | 258 500 € | 1 486 € | 106 627 € |
+
+Lecture : l'option B conserve 8 500 € avant la livraison, mais ajoute 8 500 € au solde, environ 49 € à la mensualité et environ **3 227 €** au coût total par rapport à l'option A. Si les intérêts sont capitalisés périodiquement avant le terme, le solde peut dépasser 258 500 € : seule l'offre fixe le calcul exact.
 # 5) Les banques sont habituées ?
-Oui. VEFA = cas classique : appels de fonds + intérêts intercalaires + différé possible.La négociation porte surtout sur :
+Oui. VEFA = cas classique : appels de fonds + intérêts intercalaires + différé possible. La négociation porte surtout sur :
 * la **durée exacte du différé**,
 * les **conditions** (comment ça bascule en amortissement normal),
 * le coût (assurance, frais, etc.).
@@ -53,6 +75,8 @@ Oui. VEFA = cas classique : appels de fonds + intérêts intercalaires + différ
 * **Vacance locative** : entre **deux locataires**.
 * **Carence locative** : absence du **premier locataire** (cas d’un logement neuf mis sur le marché).
 Donc “je déclenche vacance locative dès la livraison” n’est pas toujours le bon concept : si c’est la première mise en location, tu regardes plutôt **carence locative** (si l’assureur/gestionnaire la propose).
+
+Une assurance vacance/carence ne doit pas être supposée couvrir l'impossibilité de louer liée à des travaux réservés, des reprises après livraison ou un retard d'aménagement. Vérifier exclusions, franchise, délai de carence et date d'effet. Prévoir au besoin une réserve dédiée ou un compte courant d'associé ; une modulation contractuelle d'un prêt amortissable peut aider, sans jamais être présumée.
 ## GLI (loyers impayés)
 * Doit se mettre en place **au moment où tu choisis le locataire**, avant ou à la signature du bail (sinon risques d’exclusions/délais de carence).
 * Elle suppose généralement un **locataire tiers** et un dossier conforme aux critères.
@@ -105,3 +129,4 @@ Souvent le meilleur compromis :
 * Service-Public : acte de vente VEFA et garanties.
 * Service-Public : contrat de réservation VEFA.
 * ANIL : achat sur plan, dépôt de garantie et appels de fonds.
+* Société Générale : informations générales Optis, novembre 2024 — différé total possible sous conditions et coût supérieur : https://particuliers.sg.fr/static/Particuliers/Medias/Home/Banque/Credit-Immobilier/Pret_in_fine_Optis/Informations-generales-prets-OPTIS-11.2024.pdf

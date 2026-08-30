@@ -457,6 +457,64 @@ Attention :
 
 - la banque senior doit accepter la structure et le rang du vendeur dès le départ.
 
+Le remboursement suit la règle :
+
+```text
+nouvelle dette effectivement obtenue
+-> banque / dette prioritaire à solder
+-> vendeur exigible
+-> frais, mainlevée et nouvelles sûretés
+-> DSRA et réserves
+-> cash-out seulement sur le surplus autorisé
+```
+
+Une revente du bien ouvre trois chemins distincts :
+
+1. remboursement intégral du vendeur au closing ;
+2. maintien de l'hypothèque sur le bien vendu, avec le risque de droit de suite pour l'acquéreur ;
+3. mainlevée ou purge contre une sûreté de remplacement acceptée par le vendeur.
+
+Le troisième chemin, dit « portabilité » dans le cadre Fruits, n'est jamais automatique. Il exige au minimum :
+
+- consentement exprès du vendeur ;
+- acte notarié et documentation de la nouvelle sûreté ;
+- accord de toute banque et gestion des rangs ;
+- ratio de couverture et haircuts ;
+- règles d'arbitrage, retrait, appels de marge et réalisation ;
+- traitement contractuel des coupons, dividendes et produits ;
+- coûts et fiscalité intégrés.
+
+Un compte-titres nanti reste du collatéral, pas du cash libre. Les DSRA, réserves fiscales et CAPEX restent séparées et ne doivent pas être placées en Growth.
+
+### Crédit vendeur, cash-out et OBO
+
+Le cash issu d'une revente ou d'un refinancement ne constitue pas de la richesse supplémentaire tant que la dette vendeur reste due.
+
+```text
+cash économique net =
+cash encaissé
+- dette vendeur
+- autres dettes
+- sûretés / réserves immobilisées
+- frais et fiscalité
+```
+
+Un OBO ne crée pas de cash sans financeur externe. Sur un petit actif, comparer d'abord le refinancement simple ; réserver l'OBO aux portefeuilles ou plateformes dont la taille justifie droits de mutation, fiscalité, valorisation, conflits d'intérêts et coûts de structure.
+
+Si le cash monétisé doit servir de force de bilan pour le Deal suivant, distinguer :
+
+```text
+liquidité comptable
+- sûretés vendeur et banque
+- haircuts
+- réserves / DSRA / fiscalité
+= capital libre réel
+```
+
+Un refinancement qui conserve le bien doit présenter simultanément le bien à l'actif, l'ancienne dette restante, la nouvelle dette de cash-out et les frais. Une vente qui sort le bien ne peut plus compter sa valeur dans les actifs du groupe. Mélanger ces deux périmètres surévalue la NAV et la capacité d'acquisition.
+
+Voir : [Vente à terme / crédit vendeur — système Fruits](12_Vente_A_Terme_Credit_Vendeur_Fruits.md) et [Capital preservation + acquisition leverage](12_Vente_A_Terme_Credit_Vendeur_Fruits.md#6-bis-capital-preservation--acquisition-leverage).
+
 ### Crédit-bail immobilier
 
 Le refinancement se fait plutôt via :

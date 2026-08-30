@@ -20,14 +20,19 @@ Financement :
 - Loan Agreement ;
 - Intercreditor si senior + mezz ou investisseurs multiples ;
 - Conditions precedent : due diligence, assurances, valorisations.
+- Si crédit vendeur : acte de vente, échéancier Balloon / Step / Zero, coût complet, cas de défaut, remboursement anticipé et reporting.
 
 Sûretés :
 - hypothèque conventionnelle ou hypothèque légale spéciale du prêteur de deniers si applicable ;
+- hypothèque légale spéciale du vendeur si solde de prix immobilier ;
 - cession de créances de loyers si applicable ;
 - nantissement comptes bancaires + Account Control Agreement ;
 - nantissement parts sociales / actions du SPV ;
 - nantissement DSRA / réserves ;
 - si portage UF : nantissement usufruit + mécanisme de réalisation.
+- si portabilité vendeur : mainlevée/purge, substitution de sûreté, compte-titres nanti, haircuts, couverture, appels de marge et traitement des produits.
+
+Cadre crédit vendeur : [Vente à terme / crédit vendeur — système Fruits](../04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md). Toute substitution reste expérimentale avant validation du vendeur, du notaire, de l'avocat et des financeurs.
 
 Comptes et cash management :
 - compte loyers / operating ;

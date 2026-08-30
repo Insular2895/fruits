@@ -1,13 +1,15 @@
 # PACK COMPLET - CRÉDIT VENDEUR
 
+Ce fichier est le pack de contrepartie et de prospection. La mécanique financière, les trois produits, les calculs, les sûretés et les décisions GO/NO-GO vivent dans [Vente à terme / crédit vendeur — système Fruits](../04_Operationnel/12_Vente_A_Terme_Credit_Vendeur_Fruits.md).
+
 ## Cible
 
 Vendeurs immobiliers, cédants de sociétés immobilières, marchands ou propriétaires patrimoniaux prêts à différer une partie du prix pour faciliter la transaction.
 
-- Ticket : souvent 5-30% du prix, à calibrer deal par deal.
-- Horizon : 12-60 mois.
-- Stade Fruits : stade 1 opportuniste.
-- Objectif : combler un trou de fonds propres ou réduire le besoin bancaire sans faire entrer un investisseur externe.
+- Ticket historique du pack : 5-30% du prix ; le nouveau cadre teste jusqu'à 80% uniquement comme scénario agressif.
+- Horizon à tester : 1-15 ans ; 20 ans reste expérimental.
+- Stade Fruits : pilote opportuniste.
+- Objectif : adapter le calendrier du prix au besoin du vendeur et réduire le capital immédiat sans confondre dette et cash.
 
 ## Produit recommandé
 
@@ -15,7 +17,7 @@ Vendeurs immobiliers, cédants de sociétés immobilières, marchands ou propri�
 
 - Fruits paie une partie du prix au closing.
 - Le vendeur laisse une partie du prix en crédit vendeur.
-- Le solde est payé selon échéancier ou à la sortie.
+- Le solde suit Fruits Balloon, Zero ou Step.
 - Le notaire et l'avocat cadrent la sûreté, le taux, le calendrier et les conditions de défaut.
 
 Pourquoi c'est adapté :
@@ -32,7 +34,8 @@ Pourquoi c'est adapté :
 
 - 5-10% du prix : plus acceptable pour le vendeur et la banque.
 - 10-30% : possible si vendeur motivé, actif complexe ou prix élevé.
-- Durée : 1-5 ans.
+- 30-80% : hypothèse agressive exigeant davantage de cash, de garanties et de stress ; jamais présumée acceptable.
+- Durée : 1-15 ans à tester selon produit, vendeur et sortie.
 - Taux : à négocier, en restant compatible avec le droit applicable et le risque.
 
 ## Package contractuel
@@ -69,6 +72,8 @@ Pourquoi c'est adapté :
 4. Crédit vendeur.
 5. Surplus Fruits.
 
+Cet ordre est seulement une structure subordonnée indicative. Le rang réel de la banque, du vendeur et des réserves doit être fixé par les actes et l'intercreditor.
+
 ### 5. Reporting
 
 - Reporting léger au vendeur.
@@ -96,7 +101,8 @@ Pourquoi c'est adapté :
 - Transaction facilitée.
 - Bonne relation.
 - Sûreté claire.
-- Durée courte.
+- Durée et revenu adaptés au besoin du vendeur.
+- Scoring vendeur A/B.
 
 ## Ce qui fait dire non
 
@@ -112,5 +118,7 @@ Pourquoi c'est adapté :
 - Simulation prix cash vs prix avec paiement différé.
 - Proposition de sûreté.
 - Calendrier de remboursement.
+- Comparatif Balloon / Step / Zero.
+- Scoring vendeur et besoin de cash immédiat.
 - Avis notaire / avocat.
 - Validation banque senior.
